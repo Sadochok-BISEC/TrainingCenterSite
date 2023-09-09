@@ -1,0 +1,1262 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://demo.trening.mibok.ru/v1/ -->
+<html class="bx-core bx-win bx-no-touch bx-no-retina bx-chrome js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths" style=""><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Тренинг-центр</title>
+	
+	
+<meta name="robots" content="index, follow">
+<link href="./Тренинг-центр_files/googlefonts.css" type="text/css" data-template-style="true" rel="stylesheet">
+<link href="./Тренинг-центр_files/styles.min.css" type="text/css" data-template-style="true" rel="stylesheet">
+<link href="./Тренинг-центр_files/fonts.css" type="text/css" data-template-style="true" rel="stylesheet">
+<link href="./Тренинг-центр_files/svg.css" type="text/css" data-template-style="true" rel="stylesheet">
+<link href="./Тренинг-центр_files/tooltipster.bundle.min.css" type="text/css" data-template-style="true" rel="stylesheet">
+<link href="./Тренинг-центр_files/add.css" type="text/css" data-template-style="true" rel="stylesheet">
+<link href="./Тренинг-центр_files/style.css" type="text/css" data-template-style="true" rel="stylesheet">
+<link href="./Тренинг-центр_files/style(1).css" type="text/css" data-template-style="true" rel="stylesheet">
+<link href="./Тренинг-центр_files/styles.css" type="text/css" data-template-style="true" rel="stylesheet">
+<script type="text/javascript" async="" src="./Тренинг-центр_files/ba.js.загружено"></script><script type="text/javascript">if(!window.BX)window.BX={};if(!window.BX.message)window.BX.message=function(mess){if(typeof mess==='object'){for(let i in mess) {BX.message[i]=mess[i];} return true;}};</script><style type="text/css" id="operaUserStyle"></style>
+<script type="text/javascript">(window.BX||top.BX).message({'pull_server_enabled':'N','pull_config_timestamp':'0','pull_guest_mode':'N','pull_guest_user_id':'0'});(window.BX||top.BX).message({'PULL_OLD_REVISION':'Для продолжения корректной работы с сайтом необходимо перезагрузить страницу.'});</script>
+<script type="text/javascript">(window.BX||top.BX).message({'JS_CORE_LOADING':'Загрузка...','JS_CORE_NO_DATA':'- Нет данных -','JS_CORE_WINDOW_CLOSE':'Закрыть','JS_CORE_WINDOW_EXPAND':'Развернуть','JS_CORE_WINDOW_NARROW':'Свернуть в окно','JS_CORE_WINDOW_SAVE':'Сохранить','JS_CORE_WINDOW_CANCEL':'Отменить','JS_CORE_WINDOW_CONTINUE':'Продолжить','JS_CORE_H':'ч','JS_CORE_M':'м','JS_CORE_S':'с','JSADM_AI_HIDE_EXTRA':'Скрыть лишние','JSADM_AI_ALL_NOTIF':'Показать все','JSADM_AUTH_REQ':'Требуется авторизация!','JS_CORE_WINDOW_AUTH':'Войти','JS_CORE_IMAGE_FULL':'Полный размер'});</script>
+
+<script type="text/javascript" src="./Тренинг-центр_files/core.js.загружено"></script>
+
+<script>BX.setJSList(['/bitrix/js/main/core/core_ajax.js','/bitrix/js/main/core/core_promise.js','/bitrix/js/main/polyfill/promise/js/promise.js','/bitrix/js/main/loadext/loadext.js','/bitrix/js/main/loadext/extension.js','/bitrix/js/main/polyfill/promise/js/promise.js','/bitrix/js/main/polyfill/find/js/find.js','/bitrix/js/main/polyfill/includes/js/includes.js','/bitrix/js/main/polyfill/matches/js/matches.js','/bitrix/js/ui/polyfill/closest/js/closest.js','/bitrix/js/main/polyfill/fill/main.polyfill.fill.js','/bitrix/js/main/polyfill/find/js/find.js','/bitrix/js/main/polyfill/matches/js/matches.js','/bitrix/js/main/polyfill/core/dist/polyfill.bundle.js','/bitrix/js/main/core/core.js','/bitrix/js/main/polyfill/intersectionobserver/js/intersectionobserver.js','/bitrix/js/main/lazyload/dist/lazyload.bundle.js','/bitrix/js/main/polyfill/core/dist/polyfill.bundle.js','/bitrix/js/main/parambag/dist/parambag.bundle.js']);
+</script>
+<script type="text/javascript">(window.BX||top.BX).message({'LANGUAGE_ID':'ru','FORMAT_DATE':'DD.MM.YYYY','FORMAT_DATETIME':'DD.MM.YYYY HH:MI:SS','COOKIE_PREFIX':'BITRIX_SM','SERVER_TZ_OFFSET':'10800','UTF_MODE':'Y','SITE_ID':'s4','SITE_DIR':'/v1/','USER_ID':'','SERVER_TIME':'1693996237','USER_TZ_OFFSET':'0','USER_TZ_AUTO':'Y','bitrix_sessid':'e9cefd701691f655e7e064f7a0628f38'});</script>
+
+
+<script type="text/javascript" src="./Тренинг-центр_files/protobuf.js.загружено"></script>
+<script type="text/javascript" src="./Тренинг-центр_files/model.js.загружено"></script>
+<script type="text/javascript" src="./Тренинг-центр_files/core_promise.js.загружено"></script>
+<script type="text/javascript" src="./Тренинг-центр_files/rest.client.js.загружено"></script>
+<script type="text/javascript" src="./Тренинг-центр_files/pull.client.js.загружено"></script>
+<script type="text/javascript">
+					(function () {
+						"use strict";
+
+						var counter = function ()
+						{
+							var cookie = (function (name) {
+								var parts = ("; " + document.cookie).split("; " + name + "=");
+								if (parts.length == 2) {
+									try {return JSON.parse(decodeURIComponent(parts.pop().split(";").shift()));}
+									catch (e) {}
+								}
+							})("BITRIX_CONVERSION_CONTEXT_s4");
+
+							if (cookie && cookie.EXPIRE >= BX.message("SERVER_TIME"))
+								return;
+
+							var request = new XMLHttpRequest();
+							request.open("POST", "/bitrix/tools/conversion/ajax_counter.php", true);
+							request.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+							request.send(
+								"SITE_ID="+encodeURIComponent("s4")+
+								"&sessid="+encodeURIComponent(BX.bitrix_sessid())+
+								"&HTTP_REFERER="+encodeURIComponent(document.referrer)
+							);
+						};
+
+						if (window.frameRequestStart === true)
+							BX.addCustomEvent("onFrameDataReceived", counter);
+						else
+							BX.ready(counter);
+					})();
+				</script>
+
+
+
+<script type="text/javascript" src="./Тренинг-центр_files/html5shiv.min.js.загружено"></script>
+<script type="text/javascript" src="./Тренинг-центр_files/script.js.загружено"></script>
+<script type="text/javascript" src="./Тренинг-центр_files/modernizr.js.загружено"></script>
+<script type="text/javascript" src="./Тренинг-центр_files/jquery.min.js.загружено"></script>
+<script type="text/javascript" src="./Тренинг-центр_files/flexibility.js.загружено"></script>
+<script type="text/javascript" src="./Тренинг-центр_files/swiper.jquery.min.js.загружено"></script>
+<script type="text/javascript" src="./Тренинг-центр_files/perfect-scrollbar.jquery.min.js.загружено"></script>
+<script type="text/javascript" src="./Тренинг-центр_files/jquery.fancybox.js.загружено"></script>
+<script type="text/javascript" src="./Тренинг-центр_files/tooltipster.bundle.min.js.загружено"></script>
+<script type="text/javascript" src="./Тренинг-центр_files/bootstrap.min.js.загружено"></script>
+<script type="text/javascript" src="./Тренинг-центр_files/app.min.js.загружено"></script>
+<script type="text/javascript" src="./Тренинг-центр_files/script.js(1).загружено"></script>
+<script type="text/javascript">var _ba = _ba || []; _ba.push(["aid", "cf0bdd2e483f417c678575f4cd30c8d1"]); _ba.push(["host", "demo.trening.mibok.ru"]); (function() {var ba = document.createElement("script"); ba.type = "text/javascript"; ba.async = true;ba.src = (document.location.protocol == "https:" ? "https://" : "http://") + "bitrix.info/ba.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ba, s);})();</script>
+
+
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="icon" type="image/png" href="http://demo.trening.mibok.ru/v1/favicon.ico">
+
+
+         
+    <!--[if lt IE 9]>
+            <![endif]-->
+                            <style data-mode="action_style"></style>    <style type="text/css">:root img[style*="//counter.yadro.ru/"], :root img[src^="/stat/"][width="88"][height="31"], :root img[src*="://c.bigmir.net/"], :root a[href^="http://hitcounter.ru/top/stat.php"], :root a[href*="/rating/"] > img[width="88"][height="31"], :root a[href*="//top.mail.ru/jump?"], :root a#mobtop[title^="Рейтинг мобильных сайтов"], :root [title="uWeb Counter"], :root [title="uCoz Counter"], :root .min-width-normal > #popup_container ~ #fade, :root .min-width-normal > #popup_container, :root body > div[class^="_"][class*=" _"][class$="_stBig"], :root body > div[style="position: fixed; z-index: 999999; width: 400px; height: 308px; right: 5px; bottom: 5px;"], :root body > div[style="background-color: #FFF;height: 100px;position: fixed;bottom: 0px;width: 100%;max-width: 1200px;left: 50%;transform: translateX(-50%);z-index:2147483647"], :root body > div[id^="dV"][style^="width"][style*="height"][style*="position"][style*="fixed"][style*="overflow"][style*="z-index"][style*="background"], :root .flex-promo-series > .left-col > :not(#players):not(.serial-series-info), :root a[href*="://news.mirtesen.ru/newdata/"], :root .app.blog-post-page .secondary-header-ad-block, :root .app.blog-post-page #blog-post-item-video-ad, :root #root > .app .sportrecs, :root #root > .app #very-right-column, :root body.has-brand .b-content__main > div[id]:not([class]):empty, :root body.has-brand .b-content__main .b-player a[href*="aHR0c"], :root div[style="width: 252px; height: 450px; position: fixed; right: 0px; top: 0px; overflow: hidden; z-index: 10000;"], :root thetruestory-widget-top, :root object[data^="blob"], :root img[width="728"][height="90"], :root img[width="160"][height="600"], :root img[width="120"][height="600"], :root iframe[src*="trafic-media.ru"], :root iframe[src*="hd.gg33.top/"], :root iframe[src*="ads.exosrv.com"], :root iframe[src*="://vidroll.ru/"], :root iframe[src*="://promo-bc.com/"], :root iframe[src*="://partner-widget.vsesdal.com/"], :root iframe[src*="://mark-media.com.ua"], :root iframe[src*="://ab.adpro.com.ua/"], :root iframe[src*="/mixadv_"], :root iframe[src*="/carta.ua/ajax/widget."], :root iframe[src*="/3647.tech"], :root iframe[id^="republer"], :root iframe[data-src*="fwdcdn.com/frame/partners/"], :root div[id^="yandex_rtb"], :root div[id^="trafmag_"], :root div[id^="tizerws_"], :root div[id^="rtn4p"], :root div[id^="republer_"], :root div[id^="news_nest_net_ru"], :root div[id^="news_2xclick_ru_"], :root div[id^="join_informer_"], :root div[id^="itizergroup_"], :root div[id^="gnezdo_ru_"], :root div[id^="cpa_rotator_block"], :root div[id^="beroll_rotator"], :root div[id^="b_tz_"], :root div[id^="admixer_"], :root div[id^="admixer-"], :root div[id^="DIV_DA_"], :root div[id^="Crt-"][style], :root div[data-server-rendered="true"] > div[id^="la-"], :root iframe[src^="https://a.adtng.com/"], :root div[class^="da-ya-widget"], :root div[class^="da-widget-"], :root div[class^="block_fortress"], :root div[class^="bidvol-widget-"], :root div[class*="td-a-rec-id-"], :root a[onclick*="trtkp.ru"], :root a[onclick*="offergate-amigo"], :root a[onclick*="/link-fes.ru"], :root iframe[src*="litres.ru/static/widgets"], :root a[href^="https://www.juicer.io?referrer="], :root a[href^="https://relap.io/"][href*="promo_ad_link"], :root a[href^="https://msetup.pro"], :root a[href^="https://bongacams"][href*="com/track?"], :root a[href^="http://trafmaster.com"], :root a[href^="http://traderstart.mirtesen.ru"], :root a[href^="http://tds-2.ru"], :root a[href^="http://glprt.ru/affiliate/"], :root a[href^="http://datxxx.com"], :root a[href^="http://browserload.info/"], :root img[data-src="https://catalog.orbita.co.il/orbita.gif"], :root a[href^="/images/obmen/"][href$=".php"][target="_blank"], :root a[href^="/go/ufiler?"], :root a[href^="/go/ubar?"], :root a[href="http://advert.mirtesen.ru/"], :root a[href*="webdiana.ru/click"], :root a[href*="tvroff.net"], :root a[href*="tvks.ru"], :root a[href*="trklp.ru"], :root a[href*="traflabs.xyz"], :root div[id^="CGCandy"], :root a[href*="tptrk.ru"], :root a[href*="top.24smi.info"], :root a[href*="thor-media.ru/click/"], :root a[href*="shakespoint.com"], :root a[href*="shakesclick.com"], :root a[href*="shakescash.com"], :root a[href*="shakes.pro"], :root a[href*="sapmedia.ru"], :root a[href*="sandratand.ru"], :root a[href*="rexchange.begun.ru/rclick?"], :root a[href*="retagapp.com"], :root a[href*="refpazus.top"], :root a[href*="problogrus.ru"], :root a[href^="https://homyanus.com"], :root a[href*="please-direct.me"], :root a[href*="please-direct.com"], :root a[href*="sviruniversal.com/"], :root a[href*="octoclick.net"], :root a[href*="nhebd.xyz"], :root a[href*="media-rotate.com"], :root a[href*="makegreat.website"], :root a[href*="m1cpl.ru"], :root a[href*="litewebbusiness.com"], :root a[href*="linkmyc.com"], :root a[href*="navaxudoru.com"], :root a[href*="lifebloggersz.ru"], :root a[href*="kshop2.biz"], :root a[href*="kma1.biz"], :root a[href*="kinqon.ru"], :root #root > .app .adfox-top, :root a[href*="joycasino.com/?partner="], :root a[href*="idealmedia.io"], :root a[href*="herrabjec.pro"], :root a[href*="goodtrack.ru"], :root a[href*="gocdn.ru"], :root a[href*="go.ad2up.com"], :root a[href*="//softboxik1.ru/"], :root a[href*="flylinks.pw"], :root [data-la-block-show-id], :root a[href*="films.ws"], :root a[href*="cpl11.ru"], :root a[href*="cmsmodnews.com"], :root a[href*="shakesin.com"], :root a[href*="bgrndi.com"], :root .player-wrap > #kt_player ~ .spot-box, :root a[href*="amigo-biz.ru/ads/click"], :root a[href*="amgfile.ru"], :root a[href*="ads2-adnow.com"], :root a[href*="adpool.bet/"], :root a[href*="://www.meendoru.net/?partner="], :root a[href^="https://bs.serving-sys.com"], :root a[href*="://womens-journal.ru/"], :root a[href*="://vse-sdal.com/promo/"], :root [id^="ad-wrap-"], :root a[href^="https://go.tmrjmp.com"], :root a[href*="://ufiler-pro.ru/"], :root topadblock, :root a[href*="://tracker.partnersmelbet.ru/"], :root a[href*="://torrent-repa.site/"], :root a[href*="://topclicks.club/"], :root a[href*="://telamon"][href*="/tracker/?partner="], :root a[title="TopTracker.Ru - Рейтинг трекеров."], :root a[href*="://clickstats.fun/"], :root a[href*="://techdmn.com/"], :root a[href^="https://tracker.loropartners.com/"], :root [onclick*="traffic-media.co"], :root a[href*="://tatarkoresh.ru"], :root a[href*="://sugisatomi.com/"], :root a[href*="://softperehod.ru/"], :root a[href*="://segodnia.club/"], :root a[href*="cpagetti1.com"], :root [href*="driverpack.io/"], :root a[href*="://search-cdn.ru/r/"], :root a[href^="http://www.onclickmega.com/jump/next.php?"], :root a[href^="https://newbinotracs.com/"], :root a[href*="://ruprivate.club/"], :root a[href^="https://kshop"][href*=".com/"], :root a[href*="://ruonline.bar/"], :root a[href^="http://eaplay.ru/"], :root amp-connatix-player, :root a[href*="://riaccaw.com/"], :root [href^="https://join.playboyplus.com/track/"], :root a[href*="://reidancis.com/"], :root a[href*="://ya-browser.ru/r/"], :root a[href*="://refpamjeql.top/"], :root [data-mobile-ad-id], :root a[href*="://ref.studwork.ru/"], :root a[href*="://r.advg.agency/"], :root a[href*="/onvix.tv/promo/"][target=_blank], :root a[href*="://premiumredir.ru/"], :root a[href^="https://bc.game/"], :root a[href*="://manysoftlink.ru/"], :root a[href^="http://static.fleshlight.com/images/banners/"], :root a[href*="://loderkkis.ru"], :root div[id^="advertur_"], :root .trc_related_container div[data-item-syndicated="true"], :root a[href*="://lapina.xyz/"], :root a[href*="://lapina.best/"], :root a[href*="/rlink/simptizer/"], :root a[href*="://gopremiumsoft.com/"], :root a[href*="://go.click2bit.net/"], :root a[href*="://go.bundlebyte.net/r/"], :root a[href*="://getbrauzer.ru/"], :root a[href*="://newbrowserme.ru/"], :root a[href*="://gertadv.ru/"], :root a[href*="torrentum.ru"], :root a[href*="://filesmytop.ru/"], :root [href^="https://www.mypillow.com/"] > img, :root a[href*="://fast2click.ru/"], :root a[href*="tvkw.ru"], :root a[href^="http://www.mrskin.com/tour"], :root a[href*="://etcodes.com/"], :root a[href*=".cfm?fp="][href*="&maxads="], :root a[href*="://et-cod.com/"], :root a[href^="https://go.xxxjmp.com"], :root a[href*="://elgrur.com/"], :root a[href*="://doxod24.online/"], :root a[href*="://clickrpk.com/"], :root a[href*="://clickfrm.com/"], :root a[href*="://chikidiki.ru"], :root a[href*="://bubblevard.com/"], :root div[id^="adfox_"], :root a[href*="://bestnewsoft.ru/"], :root a[href^="http://fly-shops.ru"], :root a[href*="/universal-lnk.net/"], :root a[href*="://vpnbrowser.ru/"], :root .nya-slot[style], :root a[href*="/uni-lnk.com/"], :root a[href*="://getyoursoft.ru/"], :root a[href*="/sb/clk/"], :root a[href^="https://go.247traffic.com/"], :root a[href*="://extlinka.ru/"], :root a[href*="/rapidtor.ru"], :root a[href*="/onvix.me/promo/"][target=_blank], :root a[href*="/myuniversalnk.com/"], :root a[href*="/mosday.ru/ad/"], :root a[href*="/loaderu.ru/"], :root a[href^="https://prime.rambler.ru/promo/"], :root a[href*="/installpack.net"], :root a[href*="/fastvk.com"], :root object[data*="ads.com/clk.swf"], :root a[href*="/eversaree.bid"], :root a[href*="://r.advmusic.com/"], :root a[href*="/clubleads.ru"], :root a[href*="/afftraf.co/"], :root a[href*="/advjump.com"], :root a[href*="://yadistr.ru/"], :root a[href*="//yojlf.com"], :root a[href^="https://taghaugh.com/"], :root a[href*="://installpack.ru"], :root a[href*="//viruniversal.com/"], :root a[href*="//universalut.info/"], :root a[href*="//universalini.info/"], :root a[href*="//universalie.info/"], :root a[href*="//ufiler-pro2.ru"], :root a[href*="//ubar.pro"], :root a[href*="//ubar-pro"], :root a[href*="/u-loads.ru/"], :root [href^="http://www.mypillow.com/"] > img, :root a[href^="//go.eabids.com/"], :root a[href*="//tranqvilius.com/"], :root div[data-adzone], :root a[href*="://tele.gg/"], :root a[href*="//tiruniversal.com/"], :root [href^="https://optimizedelite.com/"] > img, :root a[href*="//tdsrotate.ru/"], :root a[href^="http://d2.zedo.com/"], :root a[href*="//rotatemysoft.ru/"], :root a[href^="https://go.goasrv.com/"], :root a[href*="//restofarian.com"], :root a[href*="//portakamus.com/"], :root a[href^="https://go.nordvpn.net/aff"] > img, :root a[href*="//offergate.pro/"], :root a[href*="//newbrowser.me/"], :root a[href^="https://bongacams10.com/track?"], :root a[href*="//loderna.ru"], :root a[href^="https://tour.mrskin.com/"], :root #BlWrapper > .b-temp_rbc, :root a[href*="//historategory.com/"], :root a[href*="//getmybrowser.ru/"], :root a[href*="://ya-distrib.ru/r/"], :root [href^="https://www.hostg.xyz/"] > img, :root a[href*="//gerocenius.com/"], :root a[href*="//givemysoft.ru/"], :root a[href*="//febrare.ru/"], :root [id^="ad_slider"], :root a[href*="advertwebgid.ru"], :root a[href*="//ext-load.net"], :root a[href*="://click2soft.ru/"], :root a[href*="//do-rod.com/"], :root a[href^="https://www.adskeeper.com"], :root a[href*="bestforexplmdb.com"], :root a[href*="/universalsrc.com/"], :root a[href^="https://azpresearch.club/"], :root a[href*="//bestonewos.com/"], :root a[href*="//avertise.ru/"], :root a[href*="//adretarget.net/"], :root div[id^="traffim-widget"], :root a[href^="https://m.do.co/c/"] > img, :root a[href*="//24smi."][href*="/top/"], :root a[href*=".ufiler.pro/"], :root a[href*="://ufiler-download.ru/"], :root a[href^="https://trk.nfl-online-streams.club/"], :root a[href*=".pokupkins.ru"], :root [src^="//am15.net/?"], :root a[href*="://rendersaveron.com"], :root [id^="unit_"] > a[href*="://vrf.ru"], :root a[href^="https://www.onlineusershielder.com/"], :root a[href*="/ber-ter.com"], :root [id^="newPortal_informer_"], :root [id^="n4p_"], :root #root > .app > .sticky-button, :root [href^="https://download.cdn.yandex.net/yandex-tag/weboffer/"], :root [href*="pigiuqproxy.com"], :root a[href*=".braun634.com/"], :root [href*="driftawayforfun.com"], :root a[href^="https://t.hrtye.com/"], :root [href*="://morelnk.ru/"], :root a[href*="mixadvert.com"], :root .card-captioned.crd > .crd--cnt > .s2nPlayer, :root a[href*="/ogclick.com/api/redirect"], :root [data-link*="://topclicks.club/"], :root [href*="://edgrmtracking.com/"], :root [href*="://clickpzk.com/"], :root [href*="://click.1k3web.com/"], :root [href*="/uni-tds.com/"], :root a[href^="http://go.xtbaffiliates.com/"], :root [data-link*="://ubar-pro"], :root .header-banner > #moneyback[target="_blank"], :root [data-link*="/sb/clk/"], :root [data-la-show-id], :root div[id^="zcbclk"], :root [data-la-custom-block], :root [data-la-block], :root a[href^="https://fourwhenstatistics.com/"], :root [href*=".drp.su/"], :root div[id^="ad-div-"], :root [class^="flat_"][class*="_modal"], :root div[id^="adpartner-jsunit-"], :root a[href*="/yfiles1.ru"], :root a[href*="wow-partners.com/click.php"], :root [class^="flat_"][class*="_cross"], :root a[href*="://ourbrowser.net"], :root .content_rb[id^="content_rb_"], :root .base-page_center > .banerBottom, :root a[href^="https://buqkrzbrucz.com/"], :root #adv_unisound ~ #main > #slidercontentContainer, :root a[href^="https://ad.zanox.com/ppc/"] > img, :root #MT_overroll ~ div[class][style="left:0px;top:0px;height:480px;width:650px;"], :root a[href*="//appt12mn.com/"], :root img[src*="://cp.beget.com/promo_data/"], :root zeus-ad, :root a[href*="://offergate-apps-phkr.com/"], :root span[id^="ezoic-pub-ad-placeholder-"], :root guj-ad, :root gpt-ad, :root a[href*="//refpaewsbc.top/"], :root img[src*="//i.i.ua/r/"], :root [href="https://www.masstortfinancing.com/"] > img, :root div[id^="zergnet-widget"], :root img[src*="://r.i.ua/"], :root div[id^="yandex_ad"], :root div[id^="smi_teaser_"], :root div[id^="vuukle-ad-"], :root [href^="https://go.xlrdr.com"], :root [href="//jjgirls.com/sex/ChaturbateCams"], :root div[id^="sticky_ad_"], :root a[href*="muz-loader.site"], :root a[href*="clickscloud.net"], :root div[id^="rc-widget-"], :root a[href*="/sarimsolus.com/"], :root a[href^="http://www.adultempire.com/unlimited/promo?"][href*="&partner_id="], :root div[id^="optidigital-adslot"], :root [href^="https://goldcometals.com/clk.trk"], :root a[href^="https://cams.imagetwist.com/in/?track="], :root div[id^="gpt_ad_"], :root div[id^="ezoic-pub-ad-"], :root div[id^="div-gpt-"], :root a[href*="fortedrow.pro"], :root a[href^="//a.bestcontentfare.top/"], :root div[id^="dfp-ad-"], :root div[id^="advads_ad_"], :root #root > .app .brand-widget__right-cl, :root div[id^="adspot-"], :root [class^="fpm_"][class*="_crss"], :root [href^="https://noqreport.com/"] > img, :root a[href*="://superiortds.ru/"], :root div[id^="ads300_250-widget-"], :root div[id^="ads300_100-widget-"], :root div[id^="ads250_250-widget-"], :root a[href*="trk-1.com"], :root div[id^="adrotate_widgets-"], :root div[id^="_vdo_ads_player_ai_"], :root #adv_kod_frame ~ #gotimer, :root a[href*="/get-torrent.ru"], :root img[title="bigmir)net TOP 100"], :root div[id*="ScriptRoot"], :root div[id*="MarketGid"], :root div[data-native_ad], :root div[data-mini-ad-unit], :root div[data-insertion], :root a[href^="https://s.optzsrv.com/"], :root div[data-id-advertdfpconf], :root a[href^="https://mediaserver.entainpartners.com/renderBanner.do?"], :root div[data-google-query-id], :root hl-adsense, :root div[data-contentexchange-widget], :root div[data-id^="div-gpt-ad-"], :root a[href*="//tekaners.com/"], :root div[data-content="Advertisement"], :root div[data-alias="300x250 Ad 2"], :root div[data-alias="300x250 Ad 1"], :root div[data-adunit], :root div[data-adunit-path], :root div[data-ad-wrapper], :root a[href*="//partners.house/"], :root [href^="http://join.michelle-austin.com/"], :root [id^="unit_"] > a[href*="://mirtesen.ru"], :root div[data-ad-targeting], :root div[data-ad-placeholder], :root a[href*="/go.1k3.net/"], :root div[class^="native-ad-"], :root a[href*="://shusnarmuk.com/"], :root div[data-dfp-id], :root div[class^="kiwi-ad-wrapper"], :root a[href^="https://adultfriendfinder.com/go/"], :root div[class^="Adstyled__AdWrapper-"], :root a[href^="https://trk.sportsflix4k.club/"], :root div[aria-label="Ads"], :root display-ads, :root display-ad-component, :root a[href^="https://go.xlivrdr.com"], :root bottomadblock, :root a[href^="http://putanapartners.com/go."], :root atf-ad-slot, :root [id^="relap-custom-iframe-rec"], :root aside[id^="adrotate_widgets-"], :root a[href*="//spishi.vip/"], :root article.ad, :root a[href*="ftpglst.com"], :root [data-name="adaptiveConstructorAd"], :root ark-top-ad, :root a[href^="https://ad.doubleclick.net/"], :root app-advertisement, :root [href^="https://shrugartisticelder.com"], :root [href^="http://globsads.com/"], :root a[href*="://folltiz.site/"], :root body > div[style="position: fixed; z-index: 999999; width: 400px; height: 308px; left: 5px; bottom: 5px;"], :root app-ad, :root noindex > .search_result[class*="search_result_"], :root a[href^="https://go.xlvirdr.com"], :root amp-fx-flying-carpet, :root [href^="https://r.kraken.com/"], :root #PopWin[onmousemove], :root a[href*="//1xbetlk.site/"], :root amp-embed[type="taboola"], :root a[href*=".twkv.ru"], :root a[href*="//dagamah.com/"], :root [href^="https://antiagingbed.com/discount/"] > img, :root amp-ad-custom, :root [data-url*="://installpack.net"], :root amp-ad, :root div[id^="div-ads-"], :root a[href*="://downloadbrowsernew.com/"], :root a[onmousedown^="this.href='https://paid.outbrain.com/network/redir?"][target="_blank"] + .ob_source, :root a[href*="beauty-list.ru"], :root iframe[src*="://goodgame.ru/html/embed-player/dist/index.html?partner="], :root citrus-ad-wrapper, :root img[src*="//counter.yadro.ru/"], :root [href^="https://awbbjmp.com/"], :root a[onmousedown^="this.href='https://paid.outbrain.com/network/redir?"][target="_blank"], :root a[data-redirect^="https://paid.outbrain.com/network/redir?"], :root a[href*="//12traffic.ru/"], :root a[href^="https://www.infowarsstore.com/"] > img, :root a[onmousedown^="this.href='http://paid.outbrain.com/network/redir?"][target="_blank"] + .ob_source, :root AD-TRIPLE-BOX, :root a[href^="https://yogacomplyfuel.com/"], :root a[href^="https://www.sugarinstant.com/?partner_id="], :root a[href*="://sdertjnbv.xyz/"], :root a[href^="https://www.purevpn.com/"][href*="&utm_source=aff-"], :root a[href^="https://www.privateinternetaccess.com/"] > img, :root iframe[src*="laim.tv/rotator/"], :root a[href*="/advertisesimple.info"], :root a[href*="browser-ru.site"], :root a[href^="https://www.nutaku.net/signup/landing/"], :root iframe[src*="://rstbtmd.com/"], :root a[href^="http://www.onwebcam.com/random?t_link="], :root a[href*="://101partners-stat2.com/"], :root a[href^="https://www.nudeidols.com/cams/"], :root [href^="https://safer-redirection.com"], :root a[href^="https://www.mypornstarcams.com/landing/click/"], :root a[href^="https://www.kingsoffetish.com/tour?partner_id="], :root a[href*="ex.24smi.info"], :root a[href^="https://www.highcpmrevenuenetwork.com/"], :root a[href^="https://www.googleadservices.com/pagead/aclk?"], :root .base-page_center > .banerTop, :root a[href^="https://fastestvpn.com/lifetime-special-deal?a_aid="], :root a[href^="https://www.goldenfrog.com/vyprvpn?offer_id="][href*="&aff_id="], :root a[class*="button"][href^="/go/"][href*="visitid"][onclick*="dnl"], :root a[href^="https://www.get-express-vpn.com/offer/"], :root a[href^="http://www.friendlyduck.com/AF_"], :root a[href^="https://www.financeads.net/tc.php?"], :root .mywidget__col > .mywidget__link_advert, :root a[href^="https://www.brazzersnetwork.com/landing/"], :root div[class^="Display_displayAd"], :root [href^="https://mypillow.com/"] > img, :root a[href^="https://www.sheetmusicplus.com/?aff_id="], :root a[href^="https://www.bang.com/?aff="], :root a[href*="://clickstats.online/"], :root [href^="https://www.targetingpartner.com/"], :root a[href^="https://www.adxsrve.com/"], :root a[href^="https://webroutetrk.com/"], :root a[href*="://go.btraffic.net/"], :root div[class^="cnt32_"][id^="cnt_rb_"], :root a[href^="https://twinrdsyn.com/"], :root [class^="fpm_"][class*="_out"], :root a[href^="https://tsartech.g2afse.com/"], :root [href^="https://www.mypatriotsupply.com/"] > img, :root a[href^="https://trk.softonixs.xyz/"], :root [href*="://simpalsid.com/ad/click?id"], :root [href^="https://turtlebids.irauctions.com/"] img, :root a[href^="https://tracking.avapartner.com/"], :root a[href^="http://reals-story.ru/"], :root a[href^="https://track.wg-aff.com"], :root a[href^="https://track.afcpatrk.com/"], :root a[href^="https://torguard.net/aff.php"] > img, :root div[data-adname], :root a[href^="https://thechleads.pro/"], :root div[id^="criteo-"][style], :root a[href*="://cozibaneco.com/"], :root a[href*="://edugrampromo.com/"], :root a[href^="https://natour.naughtyamerica.com/track/"], :root .OUTBRAIN[data-widget-id^="FMS_REELD_"], :root [data-role="tile-ads-module"], :root a[href^="https://adsrv4k.com/"], :root a[href^="https://go.xlviirdr.com"], :root a[href^="https://thaudray.com/"], :root a[href^="https://www.5mno3.com/"], :root a[href^="https://click.candyoffers.com/"], :root [href^="https://zstacklife.com/"] img, :root a[href^="https://t.aslnk.link/"], :root a[href^="https://t.adating.link/"], :root a[href^="https://go.trackitalltheway.com/"], :root [data-template-type="nativead"], :root [href^="https://track.fiverr.com/visit/"] > img, :root a[href^="https://financeads.net/tc.php?"], :root a[href^="https://syndication.exoclick.com/"], :root iframe[src*="tureckiy-serial.ru/"][src$=".php"], :root a[href^="https://syndication.dynsrvtbg.com/"], :root a[href*="/newbrowser.club/"], :root a[href^="https://streamate.com/landing/click/"], :root div[class*="relap"][class*="-rec-item"], :root a[href^="https://static.fleshlight.com/images/banners/"], :root a[href*="//advtise.ru/"], :root a[href*=".orgsales.ru"], :root [id^="unit_"] > a[href*="://smi2.net"], :root a[href^="https://sTaRtGAMing.net/tienda/"], :root a[href*="filebase.me"], :root [data-adblockkey], :root a[href^="https://sTARtgamIng.net/tienda/"], :root a[href^="https://itubego.com/video-downloader/?affid="], :root a[href^="https://aweptjmp.com/"], :root a[href^="https://s.zlinkc.com/"], :root a[href^="https://www.mrskin.com/account/"], :root a[href*="lifenews24x7.ru"], :root .base-page_container > .banerRight, :root a[data-obtrack^="http://paid.outbrain.com/network/redir?"], :root a[href*="//lkstrck2.com/"], :root a[href^="https://reinstandpointdumbest.com/"], :root [src*="mixadvert.com"], :root [onclick*="msetup"][onclick*="partner"][onclick*="utm_"], :root a[href^="https://go.strpjmp.com/"], :root a[href^="https://refpa4903566.top/"], :root a[href^="https://pubads.g.doubleclick.net/"], :root div[id^="ads_games_"], :root a[href^="https://prf.hn/click/"][href*="/camref:"] > img, :root a[href^="https://serve.awmdelivery.com/"], :root a[href^="https://prf.hn/click/"][href*="/adref:"] > img, :root iframe[id^="marketgid_"], :root a[onclick*="n284adserv.com"], :root a[href^="https://pb-track.com/"], :root a[href^="https://paid.outbrain.com/network/redir?"], :root ps-connatix-module, :root div[id^="ad_position_"], :root a[href^="https://ovb.im/"], :root a[href*="//adoffer.pro/"], :root [href^="https://stvkr.com/"], :root [href^="https://freecourseweb.com/"] > .sitefriend, :root [href^="https://www.herbanomic.com/"] > img, :root div[id^="bidvol-widget-"], :root [href^="http://go.cm-trk2.com/"], :root a[href*="://kinobud.site/"], :root a[href^="https://maymooth-stopic.com/"], :root a[href^="https://loboclick.com"], :root .trc_rbox .syndicatedItem, :root a[href^="https://a.bestcontentweb.top/"], :root [data-type="ad-vertical"], :root a[href^="https://lobimax.com/"], :root a[href^="https://go.xxxijmp.com"], :root a[href^="https://lead1.pl/"], :root a[href*="katuhus.com"], :root a[data-href*="recreativ.ru"], :root iframe[src*="zhitomir.info/price"], :root a[href^="https://refpa.top/"], :root a[href^="https://landing.brazzersnetwork.com/"], :root a[href^="https://safesurfingtoday.com/"][href*="?skip="], :root a[href^="https://ads.leovegas.com/redirect.aspx?"], :root [class^="fpm_"][class*="_modal"], :root a[href^="https://land.brazzersnetwork.com/landing/"], :root a[href^="https://track.adform.net/"], :root a[href^="https://go.xlviiirdr.com"], :root [data-css-class="dfp-inarticle"], :root a[href^="https://oackoubs.com/"], :root a[href^="https://l.hyenadata.com/"], :root a[href^="https://juicyads.in/"], :root [data-ad-name], :root a[href^="https://mediaserver.gvcaffiliates.com/renderBanner.do?"], :root [href*="://click.1k3pub.com/"], :root a[href^="https://join.dreamsexworld.com/"], :root [href*="://click.1k3web.net/"], :root a[href^="https://iqbroker.com/"][href*="?aff="], :root a[href*="trtkp.ru"], :root a[href*="//fofuvipibo.com/"], :root [href^="http://join.shemalepornstar.com/"], :root [id^="ad_sky"], :root a[href^="https://incisivetrk.cvtr.io/click?"], :root [data-revive-zoneid], :root a[href^="https://googleads.g.doubleclick.net/pcs/click"], :root a[href*="//universalse.info/"], :root a[href^="http://click.hotlog.ru/"], :root a[href^="https://clk.wrenchsound.store/"], :root a[href^="https://go.zybrdr.com"], :root a[href*="re-directme.com"], :root [class^="tile-picker__CitrusBannerContainer-sc-"], :root div[style*="am15.net/img/player_skins"], :root a[href^="https://go.xxxiijmp.com"], :root a[href^="https://mityneedn.com/"], :root a[href*="://softclicks.ru/"], :root a[href^="https://go.xtbaffiliates.com/"], :root [alt="Rambler's Top100"], :root a[href^="https://ismlks.com/"], :root [href*="://drp.su/"], :root a[href^="https://go.xlirdr.com"], :root a[href*="://getfiletds.ru/"], :root a[href^="https://go.skinstrip.net"][href*="?campaignId="], :root a[href^="https://go.markets.com/visit/?bta="], :root a[href^="https://billing.purevpn.com/aff.php"] > img, :root a[href^="https://go.hpyrdr.com/"], :root a[href^="https://go.goaserv.com/"], :root a[href^="https://go.dmzjmp.com"], :root a[href^="https://twinrdsrv.com/"], :root body.has-brand .b-content__main > div[style^="height: 250px; overflow: hidden;"], :root a[href^="https://go.admjmp.com/"], :root [href^="https://kingered-banctours.com/"], :root a[href^="https://get.surfshark.net/aff_c?"][href*="&aff_id="] > img, :root [href^="https://affiliate.fastcomet.com/"] > img, :root a[href*="//universalice.info/"], :root a-ad, :root a[href^="http://amigodistr.ru/"], :root a[href^="https://affiliate.rusvpn.com/click.php?"], :root a[href^="https://geniusdexchange.com/"], :root a[href^="https://www.mrskin.com/tour"], :root a[href^="https://frameworkdeserve.com/"], :root a[href^="https://flirtandsweets.life/"], :root [href^="https://traffserve.com/"], :root [data-href^="https://download.cdn.yandex.net/yandex-tag/weboffer/"], :root a[href^="https://click.hoolig.app/"], :root div[data-native-ad], :root a[href^="https://engine.trackingdesks.com/"], :root a[href*="/onvix.co/promo/"][target=_blank], :root .trc_rbox_div .syndicatedItemUB, :root [href^="https://totlnkcl.com/"], :root a[href^="https://bongacams2.com/track?"], :root [href^="https://www.reimageplus.com/"], :root a[href*="tdstrk.ru"], :root a[href^="https://engine.phn.doublepimp.com/"], :root a[href^="https://engine.blueistheneworanges.com/"], :root a[href^="https://dl-protect.net/"], :root .section-subheader > .section-hotel-prices-header, :root a[href*="feellights.ru"], :root a[href^="https://datingoffers30.info/"], :root [onclick*="content.ad/"], :root a[href^="https://clixtrac.com/"], :root a[href^="https://click.linksynergy.com/fs-bin/"] > img, :root ad-shield-ads, :root a[href^="https://sTartGAMinG.net/tienda/"], :root [href^="https://wct.link/"], :root a[href^="https://track.totalav.com/"], :root img[src^="https://images.purevpnaffiliates.com"], :root a[href^="https://porntubemate.com/"], :root a[href^="http://www.gfrevenge.com/landing/"], :root body > iframe[style^="position"][style*="fixed"][id^="iFb"][src^="/?"], :root .ob_container .item-container-obpd, :root a[href^="https://clickadilla.com/"], :root div[class^="yandex_rtb"], :root a[href*="://searchlnk.ru/r/"], :root a[href^="https://click.dtiserv2.com/"], :root a[href*="://yasearchcdn.ru/r/"], :root a[href*="/vkout.ru"], :root a[href^="http://www.iyalc.com/"], :root a[href^="https://claring-loccelkin.com/"], :root a[href*="/uloads.ru/"], :root #root > .app .adfox, :root [class^="s2nPlayer"], :root iframe[src*="//refpakglscpj."], :root a[href^="http://olivka.biz/"], :root [data-ad-cls], :root a[href^="https://chaturbate.jjgirls.com/?track="], :root a[href^="https://chaturbate.com/in/?track="], :root a[href*="//loderla.online"], :root .base-page_center > .banerTopOver, :root a[href^="https://chaturbate.com/in/?tour="], :root iframe[title="mixAd"], :root a[href^="https://syndication.optimizesrv.com/"], :root DIV[id^="DIV_NNN_"], :root a[href^="https://adnetwrk.com/"], :root a[href^="https://go.gldrdr.com/"], :root a[href^="https://affcpatrk.com/"], :root a[class*="button"][href^="//"][href*="yandex"][onclick*="dnl"][onclick*="knopka"], :root a[href^="https://www.sheetmusicplus.com/"][href*="?aff_id="], :root a[href^="https://bngpt.com/"], :root a[href^="https://cam4com.go2cloud.org/"], :root a[href^="https://bluedelivery.pro/"], :root a[href^="https://black77854.com/"], :root a[href^="https://ndt5.net/"], :root [href*="postlnk.com"], :root a[href^="https://a2.adform.net/"], :root a[href^="https://batheunits.com/"], :root iframe[src*="fwdcdn.com/frame/partners/"], :root a[target="_blank"][onmousedown="this.href^='http://paid.outbrain.com/network/redir?"], :root [data-dynamic-ads], :root a[href^="https://banners.livepartners.com/"], :root a[href^="//whulsaux.com/"], :root [href="https://masstortfinancing.com"] img, :root a[href^="http://luckiestclick.com/goto."], :root [class^="fpm_"][class*="_cross"], :root a[href^="https://albionsoftwares.com/"], :root a[href^="https://fleshlight.sjv.io/"], :root a[href^="https://go.etoro.com/"] > img, :root a[href*="://topsofto.ru/"], :root a[href*="twtn.ru/"], :root [data-d-ad-id], :root a[href^="https://convertmb.com/"], :root a[href*="offhealth.ru"], :root [data-link*="//ufiler-pro2.ru"], :root a[href*="://landingtracker.com/"], :root a[href*="/universalsrc.net/"], :root [href="https://ourgoldguy.com/contact/"] img, :root a[href^="https://join.sexworld3d.com/track/"], :root img[onclick*="clustrmaps.com/counter/"], :root div[id*="Teaser_Block"], :root a[href^="https://intenseaffiliates.com/redirect/"], :root a[href^="https://ads.ad4game.com/"], :root a[href*="/rapidtor.site"], :root a[href^="http://partners.etoro.com/"], :root [id^="google_ads_iframe"], :root a[href^="https://affpa.top/"], :root a[href^="https://adjoincomprise.com/"], :root a[href*="xxxrevpushclcdu.com"], :root [href^="http://misslinkvocation.com/"], :root a[href^="https://adclick.g.doubleclick.net/"], :root a[href^="https://www.bet365.com/"][href*="affiliate="], :root div[id^="M"][id*="Composite"], :root a[href^="https://mmwebhandler.aff-online.com/"], :root a[href*="://clickstats.pw/"], :root [href^="http://clicks.totemcash.com/"], :root div[data-adv-type="dfp"], :root a[href^="https://misspkl.com/"], :root a[href^="https://ad.kubiccomps.icu/"], :root a[href^="https://iactrivago.ampxdirect.com/"], :root a[href^="https://a.medfoodhome.com/"], :root a[href^="https://landing1.brazzersnetwork.com"], :root a[href^="https://a.bestcontentoperation.top/"], :root a[href^="https://a.adtng.com/"], :root div[id^="smi2adblock_"], :root [data-m-ad-id], :root a[href^="https://a-ads.com/"], :root iframe[src*="utraff.com"], :root a[href^="https://join.virtualtaboo.com/track/"], :root a[href^="https://StarTGAminG.net/tienda/"], :root [href^="https://www.restoro.com/"], :root a[href*="//loderls.ru"], :root a[href^="https://cpmspace.com/"], :root a[href^="https://prf.hn/click/"][href*="/creativeref:"] > img, :root a[href^="https://1betandgonow.com/"], :root div[id^="news_nest_msk_ru"], :root a[href^="https://brightadnetwork.com/"], :root [id^="unit_"] > a[href*="://smi2.ru"], :root .base-page_left-side > #left_ban, :root [href^="https://www.avantlink.com/click.php"] img, :root a[href*="//utimg.ru/"], :root a[href^="https://agacelebir.com/"], :root a[href^="https://spygasm.com/track?"], :root a[href^="http://cam4com.go2cloud.org/aff_c?"], :root #adv_unisound ~ #ad_module_cont > [id^="ad_module"], :root [data-desktop-ad-id], :root a[href*="/kshop3.biz"], :root a[href^="https://k2s.cc/pr/"], :root a[href^="http://trk.globwo.online/"], :root a[href^="http://traffic.tc-clicks.com/"], :root a[href^="http://tour.mrskin.com/"], :root a[href*="cpl1.ru"], :root a[href^="https://funkydaters.com/"], :root a[href^="http://https://www.get-express-vpn.com/offer/"], :root [href^="https://glersakr.com/"], :root a[href*="://tdsrotations.ru/"], :root div[id^="google_dfp_"], :root a[href^="http://googleads.g.doubleclick.net/pcs/click"], :root a[href^="http://click.payserve.com/"], :root #mgb-container > #mgb, :root a[href^="https://porngames.adult/?SID="], :root a[href*="://ya-cdn.ru/r/"], :root #slashboxes > .deals-rail, :root a[href*="trafgid.xyz"], :root a[href*="://getyousoft.ru/"], :root [onclick*="/sb/clk/"], :root [href^="https://www.brighteonstore.com/products/"] img, :root a[href^="http://bc.vc/?r="], :root a[href*="://dmtech05.com/"], :root [href^="http://homemoviestube.com/"], :root a[href^="http://ad.doubleclick.net/"], :root a[href^="//zunsoach.com/"], :root a[href^="//pubads.g.doubleclick.net/"], :root a[href^="https://femglobal.app/"], :root a[href*="://adv-views.com"], :root a[data-url^="http://paid.outbrain.com/network/redir?"] + .author, :root a[href*="https://relap.io/r?"], :root a[href^="//ardslediana.com/"], :root a[href*=".engine.adglare.net/"], :root a[href^="https://camfapr.com/landing/click/"], :root a[href^="http://bongacams.com/track?"], :root #kt_player > a[target="_blank"], :root a[href*="://new.torrent-pack.ru/"], :root [href*="//loadbrowser.ru/"], :root [data-rc-widget], :root [data-ad-width], :root a[href^="http://bodelen.com/"], :root a[data-oburl^="https://paid.outbrain.com/network/redir?"], :root [href^="https://cpa.10kfreesilver.com/"], :root a[href^="https://a.bestcontentfood.top/"], :root img[src*="top.mail.ru/counter?"], :root a[href^="http://wct.link/"], :root div[id^="ad-position-"], :root [href^="https://goldforyourfuture.com/clk.trk"] img, :root [href^="https://infinitytrk.com/"], :root [onclick*="//msetup.pro/"], :root [onclick^="location.href='http://www.reimageplus.com"], :root [id^="section-ad-banner"], :root a[href^="https://go.julrdr.com/"], :root [href^="https://zone.gotrackier.com/"], :root div[class^="adfinity_block_"], :root a[href^="https://visit-website.com/"], :root a[href*="://clickbytes.ru/"], :root a[href*=".adsbid.ru"], :root [href^="https://detachedbates.com/"], :root a[href^="https://join.virtuallust3d.com/"], :root a[href*="kodielinktrust.ru"], :root a[href*="//universalin.info/"], :root [href^="https://go.affiliatexe.com/"], :root [href^="https://ilovemyfreedoms.com/landing-"], :root a[href^="https://staRTgaming.net/tienda/"], :root a[href*="slovosil.com"], :root [class^="adDisplay-module"], :root a[href^="https://consali.com/"], :root a[href*="ads-provider.com"], :root a[href^="https://STaRtgAmInG.net/tienda/"], :root a[href^="http://adultfriendfinder.com/go/"], :root a[href^="http://affiliate.glbtracker.com/"], :root a[href^="https://leg.xyz/?track="], :root div[id^="crt-"][style], :root a[href*="homework.ru/?partnerId="], :root a[href^="http://adultgames.xxx/"], :root [href^="https://shiftnetwork.infusionsoft.com/go/"] > img, :root a[onmousedown^="this.href='http://paid.outbrain.com/network/redir?"][target="_blank"], :root [href^="https://secure.bmtmicro.com/servlets/"], :root a[href*="//webbrowser.club/"], :root .resultsList > div > div > div.G-5c[role="tab"][tabindex="0"], :root .pip-video-wrapper > .pip-video-label, :root iframe[src*="traffic-media.co"], :root a[href^="https://losingoldfry.com/"], :root .scroll-fixable.rail-right > .deals-rail, :root [href^="https://routewebtk.com/"], :root iframe[src*="://partner-widget.vse-sdal.com/"], :root [href^="https://mylead.global/stl/"] > img, :root a[href^="https://ak.psaltauw.net/"], :root a[href^="https://tm-offers.gamingadult.com/"], :root a[href^="https://go.cmtaffiliates.com/"], :root [onclick*=".twkv.ru"], :root a[href^="https://awptjmp.com/"], :root [href^="https://gmxvmvptfm.com/"], :root [href^="http://mypillow.com/"] > img, :root [data-ad-manager-id], :root a[href^="https://promo-bc.com/"], :root a[href^="https://clicks.pipaffiliates.com/"], :root a[href^="https://www.highperformancecpmgate.com/"], :root a[href^="https://wittered-mainging.com/"], :root a[href^="https://t.grtyi.com/"], :root [href^="https://mypatriotsupply.com/"] > img, :root [data-freestar-ad], :root a[href^="https://fc.lc/ref/"], :root .vid-present > .van_vid_carousel__padding, :root a[href*="gpclick.ru"], :root span[data-ez-ph-id], :root [href^="https://track.aftrk1.com/"], :root div[id^="adngin-"], :root a[href^="https://lnkxt.bannerator.com/"], :root a[href*="://filetaker.ru/"], :root a[href*="//sub"][href*="bubblesmedia."], :root [href^="https://istlnkcl.com/"], :root a[href*="://rotationlinks.ru/"], :root [href^="https://go.4rabettraff.com/"], :root a[href^="http://kshop.biz/"], :root [href^="https://charmingdatings.life/"], :root a[href^="https://kshop"][href*=".pro/"], :root ins.adsbygoogle, :root a[href^="https://1startfiledownload1.com/"], :root [data-la-show-block-id], :root .trc_rbox_border_elm .syndicatedItem, :root a[href^="https://italarizege.xyz/"], :root [href^="https://engine.gettopple.com/"], :root [data-id^="div-gpt-ad"], :root a[href*="turbotraf.com"], :root [href^="https://affect3dnetwork.com/track/"], :root [href="//sexcams.plus/"], :root a[href*="://go.progfile.space/r/"], :root a[href^="https://go.currency.com/"], :root a[href*="://analyticsq.com"], :root [onclick*="trklp.ru"], :root [href^="https://rapidgator.net/article/premium/ref/"], :root [href^="https://join3.bannedsextapes.com"], :root div[data-spotim-slot], :root [class^="flat_"][class*="_out"], :root a[href^="http://apytrc.com/click/"], :root [href^="https://join.girlsoutwest.com/"], :root a[href*="://downloadcontent2.ru/"], :root [href^="http://trafficare.net/"], :root a[href*="//universalies.info/"], :root a[href^="https://tc.tradetracker.net/"] > img, :root a[href^="https://adserver.adreactor.com/"], :root a[href*="//go.webredir.net/r/"], :root [href^="http://join.shemalesfromhell.com/"], :root a[href^="http://com-1.pro/"], :root a[href*="://betahit.click/"], :root #searchResultsList > div > div[onclick$="'inline.ad'});"], :root a[href*="zdravo-med.ru"], :root [data-adbridg-ad-class], :root .plistaList > .itemLinkPET, :root a[href^="http://www.adultdvdempire.com/?partner_id="][href*="&utm_"], :root #root > .app .partner-block-wrapper, :root div[class*="spklw"][data-type="ad"], :root [href^="http://join.shemale.xxx/"], :root a[href^="https://ads.betfair.com/redirect.aspx?"], :root [data-testid="ad_testID"], :root [href^="http://www.fleshlightgirls.com/"], :root [href^="http://join.trannies-fuck.com/"], :root a[href^="https://thefacux.com/"], :root a[href^="https://ads.planetwin365affiliate.com/redirect.aspx?"], :root div[class^="mixadvert"], :root [href^="http://join.rodneymoore.com/"], :root [href*="/vaigowoa.com"], :root a[href^="https://staRTgamIng.net/tienda/"], :root a[href*="land-gooods.ru"], :root div[id^="lazyad-"], :root a[href*="news-sphere.com"], :root a[href*="goext.info"], :root [name^="google_ads_iframe"], :root a[href*="://parandaya.com"], :root a[href*="//loderlx.ru"], :root [id^="div-gpt-ad"], :root [href^="https://ad.admitad.com/"], :root [data-advadstrackid], :root a[href^="https://u.expresstech.io/"], :root a[href^="https://www.geekbuying.com/dynamic-ads/"], :root [href="https://jdrucker.com/gold"] > img, :root [href^="https://v.investologic.co.uk/"], :root [href^="https://cipledecline.buzz/"], :root .novelty-banner ~ .dle_b_help > a[target="_blank"], :root [onclick*="mixadvert.com"], :root #leader-companion > a[href], :root a[href*="awesomeredirector"], :root div[recirculation-ad-container], :root a[href*="//reruniversal.com/"], :root a[href^="https://track.ultravpn.com/"], :root [href*="://browseit.ru/"], :root a[href^="https://go.hpyjmp.com"], :root [href^="https://mystore.com/"] > img, :root a[href*="://mysoftrotate.ru/"], :root a[href^="http://tc.tradetracker.net/"] > img, :root a[href^="http://affiliates.thrixxx.com/"], :root a[href*="/myuniversalnk.net/"], :root a[href^="https://www.adultempire.com/"][href*="?partner_id="], :root [data-ez-name], :root a[href*="ultrabit.ws"], :root a[data-widget-outbrain-redirect^="http://paid.outbrain.com/network/redir?"], :root .grid > .container > #aside-promotion, :root DFP-AD, :root a[href*="intovarro.ru"], :root a[href^="https://www.liquidfire.mobi/"], :root [href^="https://click2cvs.com/"], :root a[href^="https://startgAming.net/tienda/"], :root a[href*="netcrys.com"], :root [class^="flat_"][class*="_crss"], :root AMP-AD, :root a[href*="://z.cdn.traffic"][href*="/load"], :root a[href*="://dafeb.ru/"], :root div[id^="taboola-stream-"], :root [href^="https://go.astutelinks.com/"], :root [class^="amp-ad-"], :root a[href*="/api/redirect?offerid="] { display: none !important; }
+:root a[href*="/universallnk.net/"], :root AD-SLOT, :root a[href*="//parandeya.com/"], :root .ob_dual_right > .ob_ads_header ~ .odb_div, :root img[src*="cycounter"][width="88"][height="31"], :root .trc_rbox_div .syndicatedItem, :root app-large-ad, :root [data-ad-module], :root [href^="https://trackfin.asia/"], :root .plistaList > .plista_widget_underArticle_item[data-type="pet"], :root a[href*="//refpabjgth.top/"], :root [href^="http://residenceseeingstanding.com/"], :root a[href^="https://traffdaq.com/"], :root [data-la-refresh-timeout], :root [class^="div-gpt-ad"], :root a[href^="https://refpazkjixes.top/"], :root a[href*="://takenewsoft.ru/"], :root [href^="https://www.cloudways.com/en/?id"], :root a[href^="http://li.blogtrottr.com/click?"] { display: none !important; }</style><style type="text/css">.fancybox-margin{margin-right:17px;}</style></head>
+<body>
+<div id="panel"></div>
+
+
+<div id="wrapper">
+    <header class="l-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="l-header-wrapper clearfix">
+                        <div class="l-header-info">
+                            <div class="l-header-info-time">
+                                    Время работы: <br>
+ Пн-Вс 08-20                            </div>
+                            <div class="l-header-info-tel l-header-info-email">
+                                E-mail:&nbsp;<a href="mailto:test@mail.ru">test@mail.ru</a>                            </div>
+                            <div class="l-header-info-tel">
+                                +7 (495) 000-00-00                            </div>
+                        </div>
+                        <div class="l-header-version">
+                            <button class="">Aa</button>
+                            <span itemprop="copy"><a href="http://demo.trening.mibok.ru/v1/?special_version=Y">Версия для <br>слабовидящих</a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="l-menu">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="clearfix l-menu-wrapper">
+                        <a href="http://demo.trening.mibok.ru/v1/" class="l-menu-logo">
+                            <div class="logo-img">
+                            <img width="70" alt="Логотип компании" src="./Тренинг-центр_files/logo.svg" height="47" title="Логотип компании" align="left">                            </div>
+                            <div class="logo-text">
+                            <div class="l-menu-logo-text">Техника успеха</div><br>
+                            <div class="l-menu-logo-text-min">Тренинговый, учебный и консалтинговый центр</div>
+                            </div>
+                        </a>
+                        <div class="pull-right search-phone">
+                            <div class="header-search-block">
+                                <form action="http://demo.trening.mibok.ru/v1/search/index.php">
+        <input type="text" name="q" value="" size="15" maxlength="50" placeholder="Поиск по сайту">
+        <input name="s" type="submit" value="Поиск">
+    <label class="icon-search"></label>
+</form>                            </div>
+                            <div class="header-phone-block hidden-xs hiddem-sm">
+                                <div class="l-menu-phone-big">
+                                    +7 (495) 000-00-00                                </div>
+                                <div class="l-menu-phone-min">
+                                     Телефон приемной                                </div>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                        
+    <menu class="clearfix l-menu-block" id="menu">
+        <li class="li-search">
+            <div class="header-search-block">
+                <form action="http://demo.trening.mibok.ru/v1/search/index.php">
+        <input type="text" name="q" value="" size="15" maxlength="50" placeholder="Поиск по сайту">
+        <input name="s" type="submit" value="Поиск">
+    <label class="icon-search"></label>
+</form>                <div class="clearfix"></div>
+            </div>
+        </li>
+                                    <li class="active"><a href="http://demo.trening.mibok.ru/v1/">Главная</a></li>
+                                                <li><a href="http://demo.trening.mibok.ru/v1/sveden/">Сведения об организации</a></li>
+                                                                                                                                                                                                                                                                            <li><a href="http://demo.trening.mibok.ru/v1/sveden/document/">Документы</a></li>
+                                                <li><a href="http://demo.trening.mibok.ru/v1/news/">Новости</a></li>
+                                                <li><a href="http://demo.trening.mibok.ru/v1/people/">Коллектив</a></li>
+                                                <li><a href="http://demo.trening.mibok.ru/v1/timetable/">Расписание</a></li>
+                                                <li><a href="http://demo.trening.mibok.ru/v1/media/">Медиа</a></li>
+                                                                                        <li><a href="http://demo.trening.mibok.ru/v1/anticorruption/">Антикоррупционная деятельность</a></li>
+                                                <li><a href="http://demo.trening.mibok.ru/v1/reviews/">Отзывы</a></li>
+                                                <li><a href="http://demo.trening.mibok.ru/v1/contacts/">Контакты</a></li>
+                        </menu>
+    <button class="l-menu-btn navbar-toggle toogle-menu collapsed" id="menu-btn">
+        <span class="sr-only"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+    </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ 
+            
+<div class="wrapper-slider slider-new slider-full style-slider-22">
+    <div class="slider-main">
+        <div class="swiper-container swiper-container-horizontal" id="slider-main">
+            <div class="swiper-wrapper" style="transform: translate3d(-3724px, 0px, 0px); transition-duration: 0ms;"><div class="swiper-slide swiper-slide-duplicate" id="bx_3218110189_409" data-swiper-slide-index="2" style="width: 1862px;">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-12 slider-new">
+                                                                                    <div class="main-wrapper">
+                                                <div class="slider-wrapper-text">
+                                                    <div class="wrapper-child-text">
+                                                                                                                    <div class="slider-main-title-min">Консалтинговый центр</div>
+                                                                                                                                                                            <div class="slider-main-title">Техника успеха</div>
+                                                                                                                  
+                                                            <div class="slider-main-text">Управленческое консультирование и комплексное обучение</div>
+                                                                                                            </div>
+                                                    <div class="wrapper-slider-btn">
+                                                                                                                    <a class="btn btn-blue" href="http://demo.trening.mibok.ru/index.php" target="_blank">Подробнее</a>
+                                                                                                            </div>
+                                                </div>
+                                                <div class="slider-main-image" style="background-image: url(&#39;/upload/resize_cache/iblock/730/560_367_2/5362f2f5ogn1ubn3ra3c4xq3grkiq96n.png&#39;)"></div>
+                                            </div>
+                                                                            </div>
+                                </div>
+                            </div>
+                        </div>
+                                                        <div class="swiper-slide swiper-slide-prev" id="bx_3218110189_407" data-swiper-slide-index="0" style="width: 1862px;">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-12 slider-new">
+                                                                                    <div class="main-wrapper">
+                                                <div class="slider-wrapper-text">
+                                                    <div class="wrapper-child-text">
+                                                                                                                    <div class="slider-main-title-min">Тренинговый центр</div>
+                                                                                                                                                                            <div class="slider-main-title">Техника успеха</div>
+                                                                                                                  
+                                                            <div class="slider-main-text">Тренинги личностного роста и персональной эффективности</div>
+                                                                                                            </div>
+                                                    <div class="wrapper-slider-btn">
+                                                                                                                    <a class="btn btn-blue" href="http://demo.trening.mibok.ru/index.php" target="_blank">Подробнее</a>
+                                                                                                            </div>
+                                                </div>
+                                                <div class="slider-main-image" style="background-image: url(&#39;/upload/resize_cache/iblock/42b/560_367_2/uz308qux2fsio4uee7cuas6x3i4sh7gi.png&#39;)"></div>
+                                            </div>
+                                                                            </div>
+                                </div>
+                            </div>
+                        </div>
+                                                                            <div class="swiper-slide swiper-slide-active" id="bx_3218110189_408" data-swiper-slide-index="1" style="width: 1862px;">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-12 slider-new">
+                                                                                    <div class="main-wrapper">
+                                                <div class="slider-wrapper-text">
+                                                    <div class="wrapper-child-text">
+                                                                                                                    <div class="slider-main-title-min">Учебный центр</div>
+                                                                                                                                                                            <div class="slider-main-title">Техника успеха</div>
+                                                                                                                  
+                                                            <div class="slider-main-text">Курсы повышения квалификации и перепрофилирования</div>
+                                                                                                            </div>
+                                                    <div class="wrapper-slider-btn">
+                                                                                                                    <a class="btn btn-blue" href="http://demo.trening.mibok.ru/index.php" target="_blank">Подробнее</a>
+                                                                                                            </div>
+                                                </div>
+                                                <div class="slider-main-image" style="background-image: url(&#39;/upload/resize_cache/iblock/62f/560_367_2/gh6g0qshf4cyctpe38oqbaj21rtyorwm.png&#39;)"></div>
+                                            </div>
+                                                                            </div>
+                                </div>
+                            </div>
+                        </div>
+                                                                            <div class="swiper-slide swiper-slide-next" id="bx_3218110189_409" data-swiper-slide-index="2" style="width: 1862px;">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-12 slider-new">
+                                                                                    <div class="main-wrapper">
+                                                <div class="slider-wrapper-text">
+                                                    <div class="wrapper-child-text">
+                                                                                                                    <div class="slider-main-title-min">Консалтинговый центр</div>
+                                                                                                                                                                            <div class="slider-main-title">Техника успеха</div>
+                                                                                                                  
+                                                            <div class="slider-main-text">Управленческое консультирование и комплексное обучение</div>
+                                                                                                            </div>
+                                                    <div class="wrapper-slider-btn">
+                                                                                                                    <a class="btn btn-blue" href="http://demo.trening.mibok.ru/index.php" target="_blank">Подробнее</a>
+                                                                                                            </div>
+                                                </div>
+                                                <div class="slider-main-image" style="background-image: url(&#39;/upload/resize_cache/iblock/730/560_367_2/5362f2f5ogn1ubn3ra3c4xq3grkiq96n.png&#39;)"></div>
+                                            </div>
+                                                                            </div>
+                                </div>
+                            </div>
+                        </div>
+                                                <div class="swiper-slide swiper-slide-duplicate" id="bx_3218110189_407" data-swiper-slide-index="0" style="width: 1862px;">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-12 slider-new">
+                                                                                    <div class="main-wrapper">
+                                                <div class="slider-wrapper-text">
+                                                    <div class="wrapper-child-text">
+                                                                                                                    <div class="slider-main-title-min">Тренинговый центр</div>
+                                                                                                                                                                            <div class="slider-main-title">Техника успеха</div>
+                                                                                                                  
+                                                            <div class="slider-main-text">Тренинги личностного роста и персональной эффективности</div>
+                                                                                                            </div>
+                                                    <div class="wrapper-slider-btn">
+                                                                                                                    <a class="btn btn-blue" href="http://demo.trening.mibok.ru/index.php" target="_blank">Подробнее</a>
+                                                                                                            </div>
+                                                </div>
+                                                <div class="slider-main-image" style="background-image: url(&#39;/upload/resize_cache/iblock/42b/560_367_2/uz308qux2fsio4uee7cuas6x3i4sh7gi.png&#39;)"></div>
+                                            </div>
+                                                                            </div>
+                                </div>
+                            </div>
+                        </div></div>
+            <div class="wrapper-btn-prev-next-mobile">
+                <div class="slider-main-btn slider-main-prev"></div>
+                <div class="slider-main-btn slider-main-next"></div>
+            </div>
+            <div class="slider-main-pagination swiper-pagination-clickable swiper-pagination-bullets"><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span><span class="swiper-pagination-bullet"></span></div>
+        </div>
+    </div>
+            
+</div>
+    		
+<div class="slider-direction-wrapper">
+<div class="container">
+	<div class="row">
+		<div class="col-lg-12">
+			<div class="slider-direction">
+				<div class="swiper-container swiper-container-horizontal" id="slider-direction">
+					<div class="swiper-wrapper">
+																					<div class="swiper-slide swiper-slide-active" id="bx_651765591_410" style="width: 250px;">
+									<a href="http://demo.trening.mibok.ru/v1/direction/growth/" class="slider-direction-img-wrapper" title="Тренинги личностного роста">
+                                                                                    <div class="slider-direction-img slider-color-sport" style="background-image: url(&#39;/upload/resize_cache/iblock/4a3/130_130_2/192dvi39kffcqpol99ljpyx7c8794xna.png"></div>
+                                        									</a>
+									<div class="slider-direction-title">Тренинги личностного роста</div>
+																			<div class="slider-direction-text">Психологические тренинги, направленные на качественные позитивные изменения</div>
+																		<a href="http://demo.trening.mibok.ru/v1/direction/growth/" class="btn btn-blue slider-direction-link">Подробнее</a>
+								</div>
+																												<div class="swiper-slide swiper-slide-next" id="bx_651765591_411" style="width: 250px;">
+									<a href="http://demo.trening.mibok.ru/v1/direction/corporate/" class="slider-direction-img-wrapper" title="Корпоративные тренинги">
+                                                                                    <div class="slider-direction-img slider-color-sport" style="background-image: url(&#39;/upload/resize_cache/iblock/8ad/130_130_2/5oraqhbf38h9dclg63kuxk07h7oy48ji.png"></div>
+                                        									</a>
+									<div class="slider-direction-title">Корпоративные тренинги</div>
+																			<div class="slider-direction-text">Обучение персонала, которое проводится внутри компании</div>
+																		<a href="http://demo.trening.mibok.ru/v1/direction/corporate/" class="btn btn-blue slider-direction-link">Подробнее</a>
+								</div>
+																												<div class="swiper-slide" id="bx_651765591_412" style="width: 250px;">
+									<a href="http://demo.trening.mibok.ru/v1/direction/leader/" class="slider-direction-img-wrapper" title="Лидерская программа">
+                                                                                    <div class="slider-direction-img slider-color-sport" style="background-image: url(&#39;/upload/resize_cache/iblock/a96/130_130_2/72dp8vio90j1ni9dd6yd4cez2s1gnii3.png"></div>
+                                        									</a>
+									<div class="slider-direction-title">Лидерская программа</div>
+																			<div class="slider-direction-text">Игра для сильных личностей, жесткая, без шуток и поблажек</div>
+																		<a href="http://demo.trening.mibok.ru/v1/direction/leader/" class="btn btn-blue slider-direction-link">Подробнее</a>
+								</div>
+																												<div class="swiper-slide" id="bx_651765591_413" style="width: 250px;">
+									<a href="http://demo.trening.mibok.ru/v1/direction/coaching/" class="slider-direction-img-wrapper" title="Индивидуальный коучинг">
+                                                                                    <div class="slider-direction-img slider-color-sport" style="background-image: url(&#39;/upload/resize_cache/iblock/813/130_130_2/fs4kebprqe4sq7l3g5d1mur29lxkgv7a.png"></div>
+                                        									</a>
+									<div class="slider-direction-title">Индивидуальный коучинг</div>
+																			<div class="slider-direction-text">Индивидуальный коучинг направлен на&nbsp;&nbsp;развитие клиента и достижение им его целей</div>
+																		<a href="http://demo.trening.mibok.ru/v1/direction/coaching/" class="btn btn-blue slider-direction-link">Подробнее</a>
+								</div>
+																												<div class="swiper-slide" id="bx_651765591_414" style="width: 250px;">
+									<a href="http://demo.trening.mibok.ru/v1/direction/conflict/" class="slider-direction-img-wrapper" title="Решение конфликтов">
+                                                                                    <div class="slider-direction-img slider-color-sport" style="background-image: url(&#39;/upload/resize_cache/iblock/ff5/130_130_2/z73y6w67tvbt5fia0z4mrb4vn92bmigr.png"></div>
+                                        									</a>
+									<div class="slider-direction-title">Решение конфликтов</div>
+																			<div class="slider-direction-text">Помогаем разобраться и решить конфликты в коллективе</div>
+																		<a href="http://demo.trening.mibok.ru/v1/direction/conflict/" class="btn btn-blue slider-direction-link">Подробнее</a>
+								</div>
+																												<div class="swiper-slide" id="bx_651765591_415" style="width: 250px;">
+									<a href="http://demo.trening.mibok.ru/v1/direction/training/" class="slider-direction-img-wrapper" title="Повышение квалификации">
+                                                                                    <div class="slider-direction-img slider-color-sport" style="background-image: url(&#39;/upload/resize_cache/iblock/46d/130_130_2/1mz52hlpjqvilvh8kxe5gzo4pkh36a2d.png"></div>
+                                        									</a>
+									<div class="slider-direction-title">Повышение квалификации</div>
+																			<div class="slider-direction-text">Совершенствование профессиональных навыков специалистов</div>
+																		<a href="http://demo.trening.mibok.ru/v1/direction/training/" class="btn btn-blue slider-direction-link">Подробнее</a>
+								</div>
+																												<div class="swiper-slide" id="bx_651765591_416" style="width: 250px;">
+									<a href="http://demo.trening.mibok.ru/v1/direction/reprofiling/" class="slider-direction-img-wrapper" title="Смена профессии">
+                                                                                    <div class="slider-direction-img slider-color-sport" style="background-image: url(&#39;/upload/resize_cache/iblock/23d/130_130_2/kjpv0r1ruzlho8lj34927lu3i433j0k3.jpg"></div>
+                                        									</a>
+									<div class="slider-direction-title">Смена профессии</div>
+																			<div class="slider-direction-text">Необходимые изменения трудовых функций работника</div>
+																		<a href="http://demo.trening.mibok.ru/v1/direction/reprofiling/" class="btn btn-blue slider-direction-link">Подробнее</a>
+								</div>
+																		</div>
+				</div>
+				<div class="slider-direction-btn slider-direction-prev swiper-button-disabled"></div>
+				<div class="slider-direction-btn slider-direction-next"></div>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+            
+        
+    <div class="container">
+        <div class="row">
+                        
+                                                     <div class="col-lg-12 col-md-12 col-sm-12">
+                                                <h1 class="c-header c-header-margin hidden">Тренинг-центр</h1>
+                    <main class="c-article" id="main-article">
+<div class="container1">
+    <div class="row">
+        <div class="col-lg-12 c-margin"></div>
+
+        <div class="col-lg-9 col-md-9 c-float-right col-wrapper">
+            <div class="row">
+                <div class="col-lg-8 col-md-8 col-sm-8 col-big-8">
+                    <div class="c-header">Тренинговый, учебный и консалтинговый центр</div>
+
+                    <main class="c-article" id="main-article">
+                        <img alt="О тренинг-центре" src="./Тренинг-центр_files/bfb3ceb7a4b7fe6f98c030cd1265d542.jpg" title="О тренинг-центре">
+Краткое наименование учреждения:   ГБСУ СО  “Техника успеха”»<br>
+Учредитель: Администрация городского округа<br>
+Год основания: Основан в 2017 году.<br>
+Юридический адрес: 344000, Российская Федерация, Окская область, г.Город, пр. Ленине, 1-б<br>
+Фактический адрес: 344000, Российская Федерация, Окская область, г.Город, пр. Ленина, 1-б<br>
+
+Режим работы: <br>
+Понедельник-воскресенье: с 08:00 до 20:00<br>
+Телефон/факс 8 (499) 002-00-00,  тел.  8 (499) 001-00-00<br>
+E-mail:  test@mail.ru   <br>
+ Директор: Иванов Петр Сидорович<br>
+<br>
+Мы живем в эпоху цифровых трансформаций, кардинально меняющих как модели управления, так и систему образования.
+Эффективный руководитель сегодня - это преобразователь, инициатор, агент изменений внутри своей компании и вовне ее. Для принятия эффективных бизнес-решений ему нужна сложная комбинация новых знаний и навыков. <br>
+Тренинг-центр  "Техника успеха" создан для того, чтобы помочь Вам найти себя, стать успешным, поставить и добиться своих жизненных целей. <br>
+Тренинг-центр  располагает всеми условиями для успешной обучения.                    </main>
+                </div>
+
+                                                    <div class="col-lg-4 col-md-4 col-sm-4 col-big-4">
+                        <div class="c-header c-header-margin">полезные ссылки</div>
+<aside class="s-links s-links-margin ps-container ps-theme-default ps-active-y" id="links-sidebar" data-ps-id="ca228de7-f8c3-34f9-f78b-db644d7a200e" style="height: 708px;">
+    <div class="s-links-wrapper">
+                <a href="http://www.rosmintrud.ru/" id="bx_1373509569_395" target="_blank">
+                                    <img src="./Тренинг-центр_files/e0bxazkqw6tk42pq2q736b0ewp7mr1z9.png" alt="Министерство труда и социальной защиты РФ">
+                                <span>Министерство труда и социальной защиты РФ</span>
+            </a>
+                <a href="https://www.rostrud.ru/" id="bx_1373509569_397" target="_blank">
+                                    <img src="./Тренинг-центр_files/a87qqdagng0z292c66bt7g47l3ygg83e.png" alt="Федеральная служба по труду и занятости">
+                                <span>Федеральная служба по труду и занятости</span>
+            </a>
+                <a href="http://xn--80abucjiibhv9a.xn--p1ai/" id="bx_1373509569_396" target="_blank">
+                                    <img src="./Тренинг-центр_files/03sahkms07zhs1hfl3rykpfzvh25063o.png" alt="Министерство образования и науки РФ">
+                                <span>Министерство образования и науки РФ</span>
+            </a>
+                <a href="http://fcior.edu.ru/" id="bx_1373509569_398" target="_blank">
+                                    <img src="./Тренинг-центр_files/daon2em4s1z3sis6ck8480bohmgkw3of.png" alt="Федеральный центр информационно-образовательных ресурсов">
+                                <span>Федеральный центр информационно-образовательных ресурсов</span>
+            </a>
+                <a href="http://window.edu.ru/" id="bx_1373509569_399" target="_blank">
+                                    <img src="./Тренинг-центр_files/wp1ts944ibmbjfjfp7q6oz47layptpfo.png" alt="Единое окно к образовательным ресурсам">
+                                <span>Единое окно к образовательным ресурсам</span>
+            </a>
+            </div>
+<div class="ps-scrollbar-x-rail" style="left: 0px; bottom: 3px;"><div class="ps-scrollbar-x" tabindex="0" style="left: 0px; width: 0px;"></div></div><div class="ps-scrollbar-y-rail" style="top: 0px; right: 3px; height: 708px;"><div class="ps-scrollbar-y" tabindex="0" style="top: 0px; height: 422px;"></div></div></aside>
+ 
+                    </div>
+                            </div>
+        </div>
+
+                    <div class="col-lg-3 col-md-3 col-sm-12 c-float-right col-big-3">
+                                    
+
+<div class="c-header c-header-news">Новости</div>
+<aside class="s-news type1-news" id="news">
+	<div class="clearfix s-news-block">
+								<div class="s-news-wrapper" id="bx_3485106786_403">
+				<article class="s-news-article">
+                    <header class="s-news-title"><a href="http://demo.trening.mibok.ru/v1/news/403/">Корпоративный тренинг для компании Qwerty</a></header>
+                    <time class="s-news-date">20.06.2017</time>
+					<p class="s-news-text">
+						                        Для компании "Qwerty" мы провели серию корпоративных тренингов                        
+					</p>
+					<div class="clearfix s-news-info">
+						
+						<a href="http://demo.trening.mibok.ru/v1/news/403/" class=" s-news-link">Подробнее</a>
+					</div>
+				</article>
+			</div>
+								<div class="s-news-wrapper" id="bx_3485106786_402">
+				<article class="s-news-article">
+                    <header class="s-news-title"><a href="http://demo.trening.mibok.ru/v1/news/402/">Повышение квалификации учителей в школе № 1</a></header>
+                    <time class="s-news-date">06.11.2016</time>
+					<p class="s-news-text">
+						                        Школа №1 решила повысить квалификацию своих учителей                        
+					</p>
+					<div class="clearfix s-news-info">
+						
+						<a href="http://demo.trening.mibok.ru/v1/news/402/" class=" s-news-link">Подробнее</a>
+					</div>
+				</article>
+			</div>
+								<div class="s-news-wrapper" id="bx_3485106786_401">
+				<article class="s-news-article">
+                    <header class="s-news-title"><a href="http://demo.trening.mibok.ru/v1/news/401/">Сотрудники компании "АБВ" закончили курс по преодолению конфликтов</a></header>
+                    <time class="s-news-date">19.09.2016</time>
+					<p class="s-news-text">
+						                        Компания "АБВ"  обратилась с просьбой помочь преодолеть конфликты в компании                        
+					</p>
+					<div class="clearfix s-news-info">
+						
+						<a href="http://demo.trening.mibok.ru/v1/news/401/" class=" s-news-link">Подробнее</a>
+					</div>
+				</article>
+			</div>
+								<div class="s-news-wrapper" id="bx_3485106786_400">
+				<article class="s-news-article">
+                    <header class="s-news-title"><a href="http://demo.trening.mibok.ru/v1/news/400/">Открылся наш тренинговый центр!</a></header>
+                    <time class="s-news-date">01.02.2015</time>
+					<p class="s-news-text">
+						                        1 февраля состоялось открытие нашего тренингового центра. Мы подготовили  набор программ для решения...                        
+					</p>
+					<div class="clearfix s-news-info">
+						
+						<a href="http://demo.trening.mibok.ru/v1/news/400/" class=" s-news-link">Подробнее</a>
+					</div>
+				</article>
+			</div>
+			</div>
+</aside>
+
+
+
+                            </div>
+            </div>
+</div>
+
+
+    <div class="container1">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="c-title-block c-title-block-margin">
+                    <div class="c-title">Фотогалерея</div>
+                    <a href="http://demo.trening.mibok.ru/v1/media/photo/2017/406/" class="link-right">Перейти в раздел</a>
+                </div>
+            </div>
+
+
+            <div class="col-lg-12">
+                                                    <div class="clearfix photogallery" id="bx_3099439860_406">
+                                                                                    <div class="photogallery-image">
+                                    <div class="photogallery-image-block" style="background-image: url(&#39;/upload/resize_cache/iblock/337/300_300_1/rsfvyzamh6827n0c4zrlryu65119dfu4.jpg&#39;)"></div>
+                                    <a rel="group1" href="http://demo.trening.mibok.ru/upload/resize_cache/iblock/337/750_750_1/rsfvyzamh6827n0c4zrlryu65119dfu4.jpg" class="fancybox photogallery-image-link">
+                                        <div>
+                                                                                        <div class="visible-eye"></div>
+                                                                                                                                        <time>20.06.2017</time>
+                                                                                    </div>
+                                    </a>
+                                </div>
+                                                            <div class="photogallery-image">
+                                    <div class="photogallery-image-block" style="background-image: url(&#39;/upload/resize_cache/iblock/bc0/300_300_1/3dpfrs3kk332jbkiuxwiyojc2p0qb08a.jpg&#39;)"></div>
+                                    <a rel="group1" href="http://demo.trening.mibok.ru/upload/iblock/bc0/3dpfrs3kk332jbkiuxwiyojc2p0qb08a.jpg" class="fancybox photogallery-image-link">
+                                        <div>
+                                                                                        <div class="visible-eye"></div>
+                                                                                                                                        <time>20.06.2017</time>
+                                                                                    </div>
+                                    </a>
+                                </div>
+                                                            <div class="photogallery-image">
+                                    <div class="photogallery-image-block" style="background-image: url(&#39;/upload/resize_cache/iblock/e0a/300_300_1/a40n3vrx1nw6b4amv8b1x0ieyzisaa0l.jpg&#39;)"></div>
+                                    <a rel="group1" href="http://demo.trening.mibok.ru/upload/resize_cache/iblock/e0a/750_750_1/a40n3vrx1nw6b4amv8b1x0ieyzisaa0l.jpg" class="fancybox photogallery-image-link">
+                                        <div>
+                                                                                        <div class="visible-eye"></div>
+                                                                                                                                        <time>20.06.2017</time>
+                                                                                    </div>
+                                    </a>
+                                </div>
+                                                            <div class="photogallery-image">
+                                    <div class="photogallery-image-block" style="background-image: url(&#39;/upload/resize_cache/iblock/46d/300_300_1/1mz52hlpjqvilvh8kxe5gzo4pkh36a2d.png&#39;)"></div>
+                                    <a rel="group1" href="http://demo.trening.mibok.ru/upload/iblock/46d/1mz52hlpjqvilvh8kxe5gzo4pkh36a2d.png" class="fancybox photogallery-image-link">
+                                        <div>
+                                                                                        <div class="visible-eye"></div>
+                                                                                                                                        <time>20.06.2017</time>
+                                                                                    </div>
+                                    </a>
+                                </div>
+                                                            <div class="photogallery-image">
+                                    <div class="photogallery-image-block" style="background-image: url(&#39;/upload/resize_cache/iblock/539/300_300_1/usxgfk6slvo1ed6h11agz7x63fke521o.png&#39;)"></div>
+                                    <a rel="group1" href="http://demo.trening.mibok.ru/upload/resize_cache/iblock/539/750_750_1/usxgfk6slvo1ed6h11agz7x63fke521o.png" class="fancybox photogallery-image-link">
+                                        <div>
+                                                                                        <div class="visible-eye"></div>
+                                                                                                                                        <time>20.06.2017</time>
+                                                                                    </div>
+                                    </a>
+                                </div>
+                                                            <div class="photogallery-image">
+                                    <div class="photogallery-image-block" style="background-image: url(&#39;/upload/resize_cache/iblock/c5b/300_300_1/rt05l8i4m2qf19tdfxh2eo4obhmo702t.jpg&#39;)"></div>
+                                    <a rel="group1" href="http://demo.trening.mibok.ru/upload/resize_cache/iblock/c5b/750_750_1/rt05l8i4m2qf19tdfxh2eo4obhmo702t.jpg" class="fancybox photogallery-image-link">
+                                        <div>
+                                                                                        <div class="visible-eye"></div>
+                                                                                                                                        <time>20.06.2017</time>
+                                                                                    </div>
+                                    </a>
+                                </div>
+                                                            <div class="photogallery-image">
+                                    <div class="photogallery-image-block" style="background-image: url(&#39;/upload/resize_cache/iblock/b7b/300_300_1/g9ywbj3yi52whmmas1jhaqvxanvn4zz3.jpg&#39;)"></div>
+                                    <a rel="group1" href="http://demo.trening.mibok.ru/upload/resize_cache/iblock/b7b/750_750_1/g9ywbj3yi52whmmas1jhaqvxanvn4zz3.jpg" class="fancybox photogallery-image-link">
+                                        <div>
+                                                                                        <div class="visible-eye"></div>
+                                                                                                                                        <time>20.06.2017</time>
+                                                                                    </div>
+                                    </a>
+                                </div>
+                                                            <div class="photogallery-image">
+                                    <div class="photogallery-image-block" style="background-image: url(&#39;/upload/resize_cache/iblock/d76/300_300_1/emmw3yix1dz56i5why47r7p63yd6xm17.jpg&#39;)"></div>
+                                    <a rel="group1" href="http://demo.trening.mibok.ru/upload/resize_cache/iblock/d76/750_750_1/emmw3yix1dz56i5why47r7p63yd6xm17.jpg" class="fancybox photogallery-image-link">
+                                        <div>
+                                                                                        <div class="visible-eye"></div>
+                                                                                                                                        <time>20.06.2017</time>
+                                                                                    </div>
+                                    </a>
+                                </div>
+                                                                        </div>
+                                <a href="http://demo.trening.mibok.ru/v1/media/photo/2017/406/" class="link-small">Перейти в раздел</a>
+            </div>
+                </div>
+            </div>
+
+
+
+
+
+
+                </main>
+                            </div>
+                                    </div>
+            </div>
+                </div>
+    
+        
+    <footer class="l-footer">
+        <div class="container">
+            <div class="row">
+    
+                <div class="col-lg-offset-1 col-md-offset-0 col-sm-offset-0 col-lg-5 col-md-6 col-sm-5 l-footer-float">
+                                            <div class="l-footer-title">
+                            Напишите нам!                        </div>
+                        <div id="comp_4971321f743fd4ac79ec5545a421f455">
+
+<div class="wrapper_consent_footer">
+
+<form name="iblock_add" action="http://demo.trening.mibok.ru/v1/" method="post" enctype="multipart/form-data" class="l-footer-form" id="footer"><input type="hidden" name="bxajaxid" id="bxajaxid_4971321f743fd4ac79ec5545a421f455_8BACKi" value="4971321f743fd4ac79ec5545a421f455"><input type="hidden" name="AJAX_CALL" value="Y"><script type="text/javascript">
+function _processform_8BACKi(){
+	if (BX('bxajaxid_4971321f743fd4ac79ec5545a421f455_8BACKi'))
+	{
+		var obForm = BX('bxajaxid_4971321f743fd4ac79ec5545a421f455_8BACKi').form;
+		BX.bind(obForm, 'submit', function() {BX.ajax.submitComponentForm(this, 'comp_4971321f743fd4ac79ec5545a421f455', true)});
+	}
+	BX.removeCustomEvent('onAjaxSuccess', _processform_8BACKi);
+}
+if (BX('bxajaxid_4971321f743fd4ac79ec5545a421f455_8BACKi'))
+	_processform_8BACKi();
+else
+	BX.addCustomEvent('onAjaxSuccess', _processform_8BACKi);
+</script>
+	<input type="hidden" name="sessid" id="sessid" value="e9cefd701691f655e7e064f7a0628f38">    <input type="hidden" value="footer_form" name="ajax_opt_add">
+	    
+                                                <label><input type="text" placeholder="Имя" name="PROPERTY[235][0]" value=""></label>
+                                                                    <label><input type="email" placeholder="E-MAIL" name="PROPERTY[236][0]" value=""></label>
+                                                    <input type="hidden" name="PROPERTY[NAME][0]" size="25" value="Веб-форма в подвале сайта">
+                                                        <label><textarea placeholder="ТЕКСТ ВАШЕГО СООБЩЕНИЯ" name="PROPERTY[PREVIEW_TEXT][0]"></textarea></label>
+                                         
+        
+                    
+        <input type="submit" name="iblock_submit" class="btn btn-blue l-footer-submit" value="Отправить сообщение">
+</form>
+</div>
+</div>                                    </div>
+    
+                <div class="col-lg-6 col-md-6 col-sm-7 l-footer-float">
+                    <div class="row">
+                        
+                        <div class="col-lg-6 col-md-6 col-sm-4 col-xs-12 col-lg-push-6 col-md-push-6 col-sm-push-8">
+    
+                            <div class="l-footer-title">
+                                Помощь                            </div>
+                            <div class="l-footer-block">
+                                
+    <ul>
+            <li><a href="http://demo.trening.mibok.ru/v1/">Главная</a></li>
+            <li><a href="http://demo.trening.mibok.ru/v1/search/map/">Карта сайта</a></li>
+            <li><a href="http://demo.trening.mibok.ru/v1/search/">Поиск по сайту</a></li>
+            <li><a href="http://demo.trening.mibok.ru/v1/?special_version=Y">Версия для слабовидящих</a></li>
+            <li><a href="http://demo.trening.mibok.ru/v1/privacy/">Политика конфиденциальности</a></li>
+        </ul>		
+                            </div>
+    
+                        </div>
+                        
+                        <div class="col-lg-6 col-md-6 col-sm-8 col-xs-12 col-lg-pull-6 col-md-pull-6 col-sm-pull-4 col-contacts">
+    
+                            <div class="l-footer-title">Контакты</div>
+                            <div class="f-footer-block-sml">
+                                <p>
+	 Адрес:&nbsp;Окская область, город Город, проезд Ленина, 1-б
+</p>
+<p>
+	 Телефон:
+</p>
+<p>
+	 +7 (499) 001-00-00,&nbsp;
+</p>
+<p>
+	 +7 (499) 002-00-00<br>
+</p>
+<p>
+	 E-mail:&nbsp;<a href="mailto:test@mail.ru">test@mail.ru</a>
+</p>
+<p>
+	<br>
+</p>                            </div>
+                            <div class="f-footer-block-sml footer-copyright">
+                                <p>
+	 © 2023&nbsp;ТРЕНИНГ-ЦЕНТР. ВСЕ ПРАВА ЗАЩИЩЕНЫ.
+</p>
+<p>
+ <br>
+</p>                            </div>
+                            <div class="wrapper-social">
+                                <a href="http://demo.trening.mibok.ru/v1/#" class="icon-social-vk"></a>
+<a href="http://demo.trening.mibok.ru/v1/#" class="icon-social-ok"></a>
+<a href="http://demo.trening.mibok.ru/v1/#" class="icon-social-tw"></a>
+<a href="http://demo.trening.mibok.ru/v1/#" class="icon-social-yt"></a>
+<a href="http://demo.trening.mibok.ru/v1/#" class="icon-social-gplus"></a>                            </div>
+    
+                        </div>
+    
+                        
+                        
+                        <div class="mibok-informer-counter col-lg-6 col-md-6 col-sm-12 col-xs-12 pull-right">
+                                                    </div>
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+        <div class="footer-create-info">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                         <p>
+    Работает на: <a href="http://trening.mibok.ru/" target="_blank">Мибок: Сайт тренинг-центра</a>
+</p>                </div>
+            </div>
+        </div>
+    </div>
+    
+
+	
+
+
+
+<div class="panel-settings container sidebar sidebar-left" style="left: -422px;" data-status="closed"><div class="">
+	<div class="panel-wrapper" data-side="left">
+
+    <input type="hidden" name="panel_action" value="DEMO">
+    <input type="hidden" name="current_page" value="/v1/">
+    <input type="hidden" name="get_js" value="/local/templates/trening_mibok_s4/js/app.min.js">
+    <input type="hidden" name="site_template_path" value="/local/templates/trening_mibok_s4">
+    <input type="hidden" name="site_id" value="s4">
+    <div class="panel-header">
+        Настройте Ваш сайт для себя        <button class="close" type="button"><span class="glyphicon glyphicon-remove"> </span></button>
+    </div>
+    <div class="accordion">
+        <div class="accord-header">
+            <div class="name">Выберите цветовое решение</div>
+            <span class="glyphicon glyphicon-chevron-down"></span>
+        </div>
+        <div class="accord-content">
+            <div class="wrapper-theme" id="work-theme">
+                <div class="select-color-theme">
+                                            <input type="radio" name="list-theme" class="radio" id="theme_blue" value="blue" checked=""><label for="theme_blue">Синее</label><br>
+                                            <input type="radio" name="list-theme" class="radio" id="theme_green" value="green"><label for="theme_green">Зеленое</label><br>
+                                            <input type="radio" name="list-theme" class="radio" id="theme_grey" value="grey"><label for="theme_grey">Черное</label><br>
+                                            <input type="radio" name="list-theme" class="radio" id="theme_red" value="red"><label for="theme_red">Красное</label><br>
+                                            <input type="radio" name="list-theme" class="radio" id="theme_yellow" value="yellow"><label for="theme_yellow">Фиолетовое</label><br>
+                                            <input type="radio" name="list-theme" class="radio" id="theme_user" value="user"><label for="theme_user">Настроить самостоятельно</label><br>
+                                    </div>
+            </div>
+            <div class="wrapper-setting-user-color">
+                <ul class="switcher-item">
+                                            <li data-switch="background" class="active"><div class="icon-switcher"><span class="icon-panel"></span></div>Фон сайта<br><br><div class="own"></div></li>
+                                            <li data-switch="main_elements"><div class="icon-switcher"><span class="icon-panel"></span></div>Основные элементы (фон)<div class="own"></div></li>
+                                            <li data-switch="text_menu"><div class="icon-switcher"><span class="icon-panel"></span></div>Основные элементы (цвет)<div class="own"></div></li>
+                                            <li data-switch="footer_header"><div class="icon-switcher"><span class="icon-panel"></span></div>Шапка и подвал (фон)<div class="own"></div></li>
+                                            <li data-switch="text_page"><div class="icon-switcher"><span class="icon-panel"></span></div>Текст страницы (цвет)<div class="own"></div></li>
+                                            <li data-switch="sub_elements"><div class="icon-switcher"><span class="icon-panel"></span></div>Вспом-е элементы (фон)<div class="own"></div></li>
+                                    </ul>
+                <div class="switcher-block">
+                                            <div id="background" class="active">
+                            <select name="colorpicker-option-selected" style="display: none;">
+                                                                    <option value="#B8E5FA">B8E5FA</option>
+                                                                    <option value="#BCE4EE">BCE4EE</option>
+                                                                    <option value="#81CA9D">81CA9D</option>
+                                                                    <option value="#C4DF9A">C4DF9A</option>
+                                                                    <option value="#FFF79A">FFF79A</option>
+                                                                    <option value="#FEC689">FEC689</option>
+                                                                    <option value="#F5978B">F5978B</option>
+                                                                    <option value="#D792BF">D792BF</option>
+                                                                    <option value="#8781BD">8781BD</option>
+                                                                    <option value="#6DCFF6">6DCFF6</option>
+                                                                    <option value="#75CEDE">75CEDE</option>
+                                                                    <option value="#2BB673">2BB673</option>
+                                                                    <option value="#A8D26E">A8D26E</option>
+                                                                    <option value="#FFF35F">FFF35F</option>
+                                                                    <option value="#FAAC57">FAAC57</option>
+                                                                    <option value="#F46664">F46664</option>
+                                                                    <option value="#C962A7">C962A7</option>
+                                                                    <option value="#5B56A6">5B56A6</option>
+                                                                    <option value="#01AEF0">01AEF0</option>
+                                                                    <option value="#00AAC6">00AAC6</option>
+                                                                    <option value="#00A650">00A650</option>
+                                                                    <option value="#8CC63E">8CC63E</option>
+                                                                    <option value="#FDF206">FDF206</option>
+                                                                    <option value="#F7941C">F7941C</option>
+                                                                    <option value="#ED1941">ED1941</option>
+                                                                    <option value="#BD1A8D">BD1A8D</option>
+                                                                    <option value="#2E3192">2E3192</option>
+                                                                    <option value="#006893">006893</option>
+                                                                    <option value="#018A9D">018A9D</option>
+                                                                    <option value="#008641">008641</option>
+                                                                    <option value="#6C9D30">6C9D30</option>
+                                                                    <option value="#CDBE01">CDBE01</option>
+                                                                    <option value="#C37414">C37414</option>
+                                                                    <option value="#BA0F31">BA0F31</option>
+                                                                    <option value="#970570">970570</option>
+                                                                    <option value="#1E1C66">1E1C66</option>
+                                                                    <option value="#024364">024364</option>
+                                                                    <option value="#00414F">00414F</option>
+                                                                    <option value="#016530">016530</option>
+                                                                    <option value="#49731E">49731E</option>
+                                                                    <option value="#958E03">958E03</option>
+                                                                    <option value="#915501">915501</option>
+                                                                    <option value="#8B011E">8B011E</option>
+                                                                    <option value="#710055">710055</option>
+                                                                    <option value="#120941">120941</option>
+                                                                    <option value="#FFFFFF">FFFFFF</option>
+                                                                    <option value="#E0E0E6">E0E0E6</option>
+                                                                    <option value="#D3D3DA">D3D3DA</option>
+                                                                    <option value="#C4C4C4">C4C4C4</option>
+                                                                    <option value="#A2A2A2">A2A2A2</option>
+                                                                    <option value="#767676">767676</option>
+                                                                    <option value="#525252">525252</option>
+                                                                    <option value="#2C2C2C">2C2C2C</option>
+                                                                    <option value="#000000">000000</option>
+                                                            </select><span class="simplecolorpicker inline glyphicons"><span class="color" title="B8E5FA" style="background-color: #B8E5FA;" data-color="#B8E5FA" role="button" tabindex="0"></span><span class="color" title="BCE4EE" style="background-color: #BCE4EE;" data-color="#BCE4EE" role="button" tabindex="0"></span><span class="color" title="81CA9D" style="background-color: #81CA9D;" data-color="#81CA9D" role="button" tabindex="0"></span><span class="color" title="C4DF9A" style="background-color: #C4DF9A;" data-color="#C4DF9A" role="button" tabindex="0"></span><span class="color" title="FFF79A" style="background-color: #FFF79A;" data-color="#FFF79A" role="button" tabindex="0"></span><span class="color" title="FEC689" style="background-color: #FEC689;" data-color="#FEC689" role="button" tabindex="0"></span><span class="color" title="F5978B" style="background-color: #F5978B;" data-color="#F5978B" role="button" tabindex="0"></span><span class="color" title="D792BF" style="background-color: #D792BF;" data-color="#D792BF" role="button" tabindex="0"></span><span class="color" title="8781BD" style="background-color: #8781BD;" data-color="#8781BD" role="button" tabindex="0"></span><span class="color" title="6DCFF6" style="background-color: #6DCFF6;" data-color="#6DCFF6" role="button" tabindex="0"></span><span class="color" title="75CEDE" style="background-color: #75CEDE;" data-color="#75CEDE" role="button" tabindex="0"></span><span class="color" title="2BB673" style="background-color: #2BB673;" data-color="#2BB673" role="button" tabindex="0"></span><span class="color" title="A8D26E" style="background-color: #A8D26E;" data-color="#A8D26E" role="button" tabindex="0"></span><span class="color" title="FFF35F" style="background-color: #FFF35F;" data-color="#FFF35F" role="button" tabindex="0"></span><span class="color" title="FAAC57" style="background-color: #FAAC57;" data-color="#FAAC57" role="button" tabindex="0"></span><span class="color" title="F46664" style="background-color: #F46664;" data-color="#F46664" role="button" tabindex="0"></span><span class="color" title="C962A7" style="background-color: #C962A7;" data-color="#C962A7" role="button" tabindex="0"></span><span class="color" title="5B56A6" style="background-color: #5B56A6;" data-color="#5B56A6" role="button" tabindex="0"></span><span class="color" title="01AEF0" style="background-color: #01AEF0;" data-color="#01AEF0" role="button" tabindex="0"></span><span class="color" title="00AAC6" style="background-color: #00AAC6;" data-color="#00AAC6" role="button" tabindex="0"></span><span class="color" title="00A650" style="background-color: #00A650;" data-color="#00A650" role="button" tabindex="0"></span><span class="color" title="8CC63E" style="background-color: #8CC63E;" data-color="#8CC63E" role="button" tabindex="0"></span><span class="color" title="FDF206" style="background-color: #FDF206;" data-color="#FDF206" role="button" tabindex="0"></span><span class="color" title="F7941C" style="background-color: #F7941C;" data-color="#F7941C" role="button" tabindex="0"></span><span class="color" title="ED1941" style="background-color: #ED1941;" data-color="#ED1941" role="button" tabindex="0"></span><span class="color" title="BD1A8D" style="background-color: #BD1A8D;" data-color="#BD1A8D" role="button" tabindex="0"></span><span class="color" title="2E3192" style="background-color: #2E3192;" data-color="#2E3192" role="button" tabindex="0"></span><span class="color" title="006893" style="background-color: #006893;" data-color="#006893" role="button" tabindex="0"></span><span class="color" title="018A9D" style="background-color: #018A9D;" data-color="#018A9D" role="button" tabindex="0"></span><span class="color" title="008641" style="background-color: #008641;" data-color="#008641" role="button" tabindex="0"></span><span class="color" title="6C9D30" style="background-color: #6C9D30;" data-color="#6C9D30" role="button" tabindex="0"></span><span class="color" title="CDBE01" style="background-color: #CDBE01;" data-color="#CDBE01" role="button" tabindex="0"></span><span class="color" title="C37414" style="background-color: #C37414;" data-color="#C37414" role="button" tabindex="0"></span><span class="color" title="BA0F31" style="background-color: #BA0F31;" data-color="#BA0F31" role="button" tabindex="0"></span><span class="color" title="970570" style="background-color: #970570;" data-color="#970570" role="button" tabindex="0"></span><span class="color" title="1E1C66" style="background-color: #1E1C66;" data-color="#1E1C66" role="button" tabindex="0"></span><span class="color" title="024364" style="background-color: #024364;" data-color="#024364" role="button" tabindex="0"></span><span class="color" title="00414F" style="background-color: #00414F;" data-color="#00414F" role="button" tabindex="0"></span><span class="color" title="016530" style="background-color: #016530;" data-color="#016530" role="button" tabindex="0"></span><span class="color" title="49731E" style="background-color: #49731E;" data-color="#49731E" role="button" tabindex="0"></span><span class="color" title="958E03" style="background-color: #958E03;" data-color="#958E03" role="button" tabindex="0"></span><span class="color" title="915501" style="background-color: #915501;" data-color="#915501" role="button" tabindex="0"></span><span class="color" title="8B011E" style="background-color: #8B011E;" data-color="#8B011E" role="button" tabindex="0"></span><span class="color" title="710055" style="background-color: #710055;" data-color="#710055" role="button" tabindex="0"></span><span class="color" title="120941" style="background-color: #120941;" data-color="#120941" role="button" tabindex="0"></span><span class="color" title="FFFFFF" style="background-color: #FFFFFF;" data-color="#FFFFFF" role="button" tabindex="0"></span><span class="color" title="E0E0E6" style="background-color: #E0E0E6;" data-color="#E0E0E6" role="button" tabindex="0"></span><span class="color" title="D3D3DA" style="background-color: #D3D3DA;" data-color="#D3D3DA" role="button" tabindex="0"></span><span class="color" title="C4C4C4" style="background-color: #C4C4C4;" data-color="#C4C4C4" role="button" tabindex="0"></span><span class="color" title="A2A2A2" style="background-color: #A2A2A2;" data-color="#A2A2A2" role="button" tabindex="0"></span><span class="color" title="767676" style="background-color: #767676;" data-color="#767676" role="button" tabindex="0"></span><span class="color" title="525252" style="background-color: #525252;" data-color="#525252" role="button" tabindex="0"></span><span class="color" title="2C2C2C" style="background-color: #2C2C2C;" data-color="#2C2C2C" role="button" tabindex="0"></span><span class="color" title="000000" style="background-color: #000000;" data-color="#000000" role="button" tabindex="0"></span></span>
+
+                            <input type="text" class="custom-color" style="display: none;"><div class="sp-replacer sp-light"><div class="sp-preview"><div class="sp-preview-inner sp-clear-display" style="background-color: transparent;"></div></div><div class="sp-dd">Свой цвет</div></div>
+                            <input type="text" name="value-color" class="value-color" value="">
+                            <input type="hidden" name="is-selected" value="">
+                        </div>
+                                            <div id="main_elements">
+                            <select name="colorpicker-option-selected" style="display: none;">
+                                                                    <option value="#B8E5FA">B8E5FA</option>
+                                                                    <option value="#BCE4EE">BCE4EE</option>
+                                                                    <option value="#81CA9D">81CA9D</option>
+                                                                    <option value="#C4DF9A">C4DF9A</option>
+                                                                    <option value="#FFF79A">FFF79A</option>
+                                                                    <option value="#FEC689">FEC689</option>
+                                                                    <option value="#F5978B">F5978B</option>
+                                                                    <option value="#D792BF">D792BF</option>
+                                                                    <option value="#8781BD">8781BD</option>
+                                                                    <option value="#6DCFF6">6DCFF6</option>
+                                                                    <option value="#75CEDE">75CEDE</option>
+                                                                    <option value="#2BB673">2BB673</option>
+                                                                    <option value="#A8D26E">A8D26E</option>
+                                                                    <option value="#FFF35F">FFF35F</option>
+                                                                    <option value="#FAAC57">FAAC57</option>
+                                                                    <option value="#F46664">F46664</option>
+                                                                    <option value="#C962A7">C962A7</option>
+                                                                    <option value="#5B56A6">5B56A6</option>
+                                                                    <option value="#01AEF0">01AEF0</option>
+                                                                    <option value="#00AAC6">00AAC6</option>
+                                                                    <option value="#00A650">00A650</option>
+                                                                    <option value="#8CC63E">8CC63E</option>
+                                                                    <option value="#FDF206">FDF206</option>
+                                                                    <option value="#F7941C">F7941C</option>
+                                                                    <option value="#ED1941">ED1941</option>
+                                                                    <option value="#BD1A8D">BD1A8D</option>
+                                                                    <option value="#2E3192">2E3192</option>
+                                                                    <option value="#006893">006893</option>
+                                                                    <option value="#018A9D">018A9D</option>
+                                                                    <option value="#008641">008641</option>
+                                                                    <option value="#6C9D30">6C9D30</option>
+                                                                    <option value="#CDBE01">CDBE01</option>
+                                                                    <option value="#C37414">C37414</option>
+                                                                    <option value="#BA0F31">BA0F31</option>
+                                                                    <option value="#970570">970570</option>
+                                                                    <option value="#1E1C66">1E1C66</option>
+                                                                    <option value="#024364">024364</option>
+                                                                    <option value="#00414F">00414F</option>
+                                                                    <option value="#016530">016530</option>
+                                                                    <option value="#49731E">49731E</option>
+                                                                    <option value="#958E03">958E03</option>
+                                                                    <option value="#915501">915501</option>
+                                                                    <option value="#8B011E">8B011E</option>
+                                                                    <option value="#710055">710055</option>
+                                                                    <option value="#120941">120941</option>
+                                                                    <option value="#FFFFFF">FFFFFF</option>
+                                                                    <option value="#E0E0E6">E0E0E6</option>
+                                                                    <option value="#D3D3DA">D3D3DA</option>
+                                                                    <option value="#C4C4C4">C4C4C4</option>
+                                                                    <option value="#A2A2A2">A2A2A2</option>
+                                                                    <option value="#767676">767676</option>
+                                                                    <option value="#525252">525252</option>
+                                                                    <option value="#2C2C2C">2C2C2C</option>
+                                                                    <option value="#000000">000000</option>
+                                                            </select><span class="simplecolorpicker inline glyphicons"><span class="color" title="B8E5FA" style="background-color: #B8E5FA;" data-color="#B8E5FA" role="button" tabindex="0"></span><span class="color" title="BCE4EE" style="background-color: #BCE4EE;" data-color="#BCE4EE" role="button" tabindex="0"></span><span class="color" title="81CA9D" style="background-color: #81CA9D;" data-color="#81CA9D" role="button" tabindex="0"></span><span class="color" title="C4DF9A" style="background-color: #C4DF9A;" data-color="#C4DF9A" role="button" tabindex="0"></span><span class="color" title="FFF79A" style="background-color: #FFF79A;" data-color="#FFF79A" role="button" tabindex="0"></span><span class="color" title="FEC689" style="background-color: #FEC689;" data-color="#FEC689" role="button" tabindex="0"></span><span class="color" title="F5978B" style="background-color: #F5978B;" data-color="#F5978B" role="button" tabindex="0"></span><span class="color" title="D792BF" style="background-color: #D792BF;" data-color="#D792BF" role="button" tabindex="0"></span><span class="color" title="8781BD" style="background-color: #8781BD;" data-color="#8781BD" role="button" tabindex="0"></span><span class="color" title="6DCFF6" style="background-color: #6DCFF6;" data-color="#6DCFF6" role="button" tabindex="0"></span><span class="color" title="75CEDE" style="background-color: #75CEDE;" data-color="#75CEDE" role="button" tabindex="0"></span><span class="color" title="2BB673" style="background-color: #2BB673;" data-color="#2BB673" role="button" tabindex="0"></span><span class="color" title="A8D26E" style="background-color: #A8D26E;" data-color="#A8D26E" role="button" tabindex="0"></span><span class="color" title="FFF35F" style="background-color: #FFF35F;" data-color="#FFF35F" role="button" tabindex="0"></span><span class="color" title="FAAC57" style="background-color: #FAAC57;" data-color="#FAAC57" role="button" tabindex="0"></span><span class="color" title="F46664" style="background-color: #F46664;" data-color="#F46664" role="button" tabindex="0"></span><span class="color" title="C962A7" style="background-color: #C962A7;" data-color="#C962A7" role="button" tabindex="0"></span><span class="color" title="5B56A6" style="background-color: #5B56A6;" data-color="#5B56A6" role="button" tabindex="0"></span><span class="color" title="01AEF0" style="background-color: #01AEF0;" data-color="#01AEF0" role="button" tabindex="0"></span><span class="color" title="00AAC6" style="background-color: #00AAC6;" data-color="#00AAC6" role="button" tabindex="0"></span><span class="color" title="00A650" style="background-color: #00A650;" data-color="#00A650" role="button" tabindex="0"></span><span class="color" title="8CC63E" style="background-color: #8CC63E;" data-color="#8CC63E" role="button" tabindex="0"></span><span class="color" title="FDF206" style="background-color: #FDF206;" data-color="#FDF206" role="button" tabindex="0"></span><span class="color" title="F7941C" style="background-color: #F7941C;" data-color="#F7941C" role="button" tabindex="0"></span><span class="color" title="ED1941" style="background-color: #ED1941;" data-color="#ED1941" role="button" tabindex="0"></span><span class="color" title="BD1A8D" style="background-color: #BD1A8D;" data-color="#BD1A8D" role="button" tabindex="0"></span><span class="color" title="2E3192" style="background-color: #2E3192;" data-color="#2E3192" role="button" tabindex="0"></span><span class="color" title="006893" style="background-color: #006893;" data-color="#006893" role="button" tabindex="0"></span><span class="color" title="018A9D" style="background-color: #018A9D;" data-color="#018A9D" role="button" tabindex="0"></span><span class="color" title="008641" style="background-color: #008641;" data-color="#008641" role="button" tabindex="0"></span><span class="color" title="6C9D30" style="background-color: #6C9D30;" data-color="#6C9D30" role="button" tabindex="0"></span><span class="color" title="CDBE01" style="background-color: #CDBE01;" data-color="#CDBE01" role="button" tabindex="0"></span><span class="color" title="C37414" style="background-color: #C37414;" data-color="#C37414" role="button" tabindex="0"></span><span class="color" title="BA0F31" style="background-color: #BA0F31;" data-color="#BA0F31" role="button" tabindex="0"></span><span class="color" title="970570" style="background-color: #970570;" data-color="#970570" role="button" tabindex="0"></span><span class="color" title="1E1C66" style="background-color: #1E1C66;" data-color="#1E1C66" role="button" tabindex="0"></span><span class="color" title="024364" style="background-color: #024364;" data-color="#024364" role="button" tabindex="0"></span><span class="color" title="00414F" style="background-color: #00414F;" data-color="#00414F" role="button" tabindex="0"></span><span class="color" title="016530" style="background-color: #016530;" data-color="#016530" role="button" tabindex="0"></span><span class="color" title="49731E" style="background-color: #49731E;" data-color="#49731E" role="button" tabindex="0"></span><span class="color" title="958E03" style="background-color: #958E03;" data-color="#958E03" role="button" tabindex="0"></span><span class="color" title="915501" style="background-color: #915501;" data-color="#915501" role="button" tabindex="0"></span><span class="color" title="8B011E" style="background-color: #8B011E;" data-color="#8B011E" role="button" tabindex="0"></span><span class="color" title="710055" style="background-color: #710055;" data-color="#710055" role="button" tabindex="0"></span><span class="color" title="120941" style="background-color: #120941;" data-color="#120941" role="button" tabindex="0"></span><span class="color" title="FFFFFF" style="background-color: #FFFFFF;" data-color="#FFFFFF" role="button" tabindex="0"></span><span class="color" title="E0E0E6" style="background-color: #E0E0E6;" data-color="#E0E0E6" role="button" tabindex="0"></span><span class="color" title="D3D3DA" style="background-color: #D3D3DA;" data-color="#D3D3DA" role="button" tabindex="0"></span><span class="color" title="C4C4C4" style="background-color: #C4C4C4;" data-color="#C4C4C4" role="button" tabindex="0"></span><span class="color" title="A2A2A2" style="background-color: #A2A2A2;" data-color="#A2A2A2" role="button" tabindex="0"></span><span class="color" title="767676" style="background-color: #767676;" data-color="#767676" role="button" tabindex="0"></span><span class="color" title="525252" style="background-color: #525252;" data-color="#525252" role="button" tabindex="0"></span><span class="color" title="2C2C2C" style="background-color: #2C2C2C;" data-color="#2C2C2C" role="button" tabindex="0"></span><span class="color" title="000000" style="background-color: #000000;" data-color="#000000" role="button" tabindex="0"></span></span>
+
+                            <input type="text" class="custom-color" style="display: none;"><div class="sp-replacer sp-light"><div class="sp-preview"><div class="sp-preview-inner sp-clear-display" style="background-color: transparent;"></div></div><div class="sp-dd">Свой цвет</div></div>
+                            <input type="text" name="value-color" class="value-color" value="">
+                            <input type="hidden" name="is-selected" value="">
+                        </div>
+                                            <div id="text_menu">
+                            <select name="colorpicker-option-selected" style="display: none;">
+                                                                    <option value="#B8E5FA">B8E5FA</option>
+                                                                    <option value="#BCE4EE">BCE4EE</option>
+                                                                    <option value="#81CA9D">81CA9D</option>
+                                                                    <option value="#C4DF9A">C4DF9A</option>
+                                                                    <option value="#FFF79A">FFF79A</option>
+                                                                    <option value="#FEC689">FEC689</option>
+                                                                    <option value="#F5978B">F5978B</option>
+                                                                    <option value="#D792BF">D792BF</option>
+                                                                    <option value="#8781BD">8781BD</option>
+                                                                    <option value="#6DCFF6">6DCFF6</option>
+                                                                    <option value="#75CEDE">75CEDE</option>
+                                                                    <option value="#2BB673">2BB673</option>
+                                                                    <option value="#A8D26E">A8D26E</option>
+                                                                    <option value="#FFF35F">FFF35F</option>
+                                                                    <option value="#FAAC57">FAAC57</option>
+                                                                    <option value="#F46664">F46664</option>
+                                                                    <option value="#C962A7">C962A7</option>
+                                                                    <option value="#5B56A6">5B56A6</option>
+                                                                    <option value="#01AEF0">01AEF0</option>
+                                                                    <option value="#00AAC6">00AAC6</option>
+                                                                    <option value="#00A650">00A650</option>
+                                                                    <option value="#8CC63E">8CC63E</option>
+                                                                    <option value="#FDF206">FDF206</option>
+                                                                    <option value="#F7941C">F7941C</option>
+                                                                    <option value="#ED1941">ED1941</option>
+                                                                    <option value="#BD1A8D">BD1A8D</option>
+                                                                    <option value="#2E3192">2E3192</option>
+                                                                    <option value="#006893">006893</option>
+                                                                    <option value="#018A9D">018A9D</option>
+                                                                    <option value="#008641">008641</option>
+                                                                    <option value="#6C9D30">6C9D30</option>
+                                                                    <option value="#CDBE01">CDBE01</option>
+                                                                    <option value="#C37414">C37414</option>
+                                                                    <option value="#BA0F31">BA0F31</option>
+                                                                    <option value="#970570">970570</option>
+                                                                    <option value="#1E1C66">1E1C66</option>
+                                                                    <option value="#024364">024364</option>
+                                                                    <option value="#00414F">00414F</option>
+                                                                    <option value="#016530">016530</option>
+                                                                    <option value="#49731E">49731E</option>
+                                                                    <option value="#958E03">958E03</option>
+                                                                    <option value="#915501">915501</option>
+                                                                    <option value="#8B011E">8B011E</option>
+                                                                    <option value="#710055">710055</option>
+                                                                    <option value="#120941">120941</option>
+                                                                    <option value="#FFFFFF">FFFFFF</option>
+                                                                    <option value="#E0E0E6">E0E0E6</option>
+                                                                    <option value="#D3D3DA">D3D3DA</option>
+                                                                    <option value="#C4C4C4">C4C4C4</option>
+                                                                    <option value="#A2A2A2">A2A2A2</option>
+                                                                    <option value="#767676">767676</option>
+                                                                    <option value="#525252">525252</option>
+                                                                    <option value="#2C2C2C">2C2C2C</option>
+                                                                    <option value="#000000">000000</option>
+                                                            </select><span class="simplecolorpicker inline glyphicons"><span class="color" title="B8E5FA" style="background-color: #B8E5FA;" data-color="#B8E5FA" role="button" tabindex="0"></span><span class="color" title="BCE4EE" style="background-color: #BCE4EE;" data-color="#BCE4EE" role="button" tabindex="0"></span><span class="color" title="81CA9D" style="background-color: #81CA9D;" data-color="#81CA9D" role="button" tabindex="0"></span><span class="color" title="C4DF9A" style="background-color: #C4DF9A;" data-color="#C4DF9A" role="button" tabindex="0"></span><span class="color" title="FFF79A" style="background-color: #FFF79A;" data-color="#FFF79A" role="button" tabindex="0"></span><span class="color" title="FEC689" style="background-color: #FEC689;" data-color="#FEC689" role="button" tabindex="0"></span><span class="color" title="F5978B" style="background-color: #F5978B;" data-color="#F5978B" role="button" tabindex="0"></span><span class="color" title="D792BF" style="background-color: #D792BF;" data-color="#D792BF" role="button" tabindex="0"></span><span class="color" title="8781BD" style="background-color: #8781BD;" data-color="#8781BD" role="button" tabindex="0"></span><span class="color" title="6DCFF6" style="background-color: #6DCFF6;" data-color="#6DCFF6" role="button" tabindex="0"></span><span class="color" title="75CEDE" style="background-color: #75CEDE;" data-color="#75CEDE" role="button" tabindex="0"></span><span class="color" title="2BB673" style="background-color: #2BB673;" data-color="#2BB673" role="button" tabindex="0"></span><span class="color" title="A8D26E" style="background-color: #A8D26E;" data-color="#A8D26E" role="button" tabindex="0"></span><span class="color" title="FFF35F" style="background-color: #FFF35F;" data-color="#FFF35F" role="button" tabindex="0"></span><span class="color" title="FAAC57" style="background-color: #FAAC57;" data-color="#FAAC57" role="button" tabindex="0"></span><span class="color" title="F46664" style="background-color: #F46664;" data-color="#F46664" role="button" tabindex="0"></span><span class="color" title="C962A7" style="background-color: #C962A7;" data-color="#C962A7" role="button" tabindex="0"></span><span class="color" title="5B56A6" style="background-color: #5B56A6;" data-color="#5B56A6" role="button" tabindex="0"></span><span class="color" title="01AEF0" style="background-color: #01AEF0;" data-color="#01AEF0" role="button" tabindex="0"></span><span class="color" title="00AAC6" style="background-color: #00AAC6;" data-color="#00AAC6" role="button" tabindex="0"></span><span class="color" title="00A650" style="background-color: #00A650;" data-color="#00A650" role="button" tabindex="0"></span><span class="color" title="8CC63E" style="background-color: #8CC63E;" data-color="#8CC63E" role="button" tabindex="0"></span><span class="color" title="FDF206" style="background-color: #FDF206;" data-color="#FDF206" role="button" tabindex="0"></span><span class="color" title="F7941C" style="background-color: #F7941C;" data-color="#F7941C" role="button" tabindex="0"></span><span class="color" title="ED1941" style="background-color: #ED1941;" data-color="#ED1941" role="button" tabindex="0"></span><span class="color" title="BD1A8D" style="background-color: #BD1A8D;" data-color="#BD1A8D" role="button" tabindex="0"></span><span class="color" title="2E3192" style="background-color: #2E3192;" data-color="#2E3192" role="button" tabindex="0"></span><span class="color" title="006893" style="background-color: #006893;" data-color="#006893" role="button" tabindex="0"></span><span class="color" title="018A9D" style="background-color: #018A9D;" data-color="#018A9D" role="button" tabindex="0"></span><span class="color" title="008641" style="background-color: #008641;" data-color="#008641" role="button" tabindex="0"></span><span class="color" title="6C9D30" style="background-color: #6C9D30;" data-color="#6C9D30" role="button" tabindex="0"></span><span class="color" title="CDBE01" style="background-color: #CDBE01;" data-color="#CDBE01" role="button" tabindex="0"></span><span class="color" title="C37414" style="background-color: #C37414;" data-color="#C37414" role="button" tabindex="0"></span><span class="color" title="BA0F31" style="background-color: #BA0F31;" data-color="#BA0F31" role="button" tabindex="0"></span><span class="color" title="970570" style="background-color: #970570;" data-color="#970570" role="button" tabindex="0"></span><span class="color" title="1E1C66" style="background-color: #1E1C66;" data-color="#1E1C66" role="button" tabindex="0"></span><span class="color" title="024364" style="background-color: #024364;" data-color="#024364" role="button" tabindex="0"></span><span class="color" title="00414F" style="background-color: #00414F;" data-color="#00414F" role="button" tabindex="0"></span><span class="color" title="016530" style="background-color: #016530;" data-color="#016530" role="button" tabindex="0"></span><span class="color" title="49731E" style="background-color: #49731E;" data-color="#49731E" role="button" tabindex="0"></span><span class="color" title="958E03" style="background-color: #958E03;" data-color="#958E03" role="button" tabindex="0"></span><span class="color" title="915501" style="background-color: #915501;" data-color="#915501" role="button" tabindex="0"></span><span class="color" title="8B011E" style="background-color: #8B011E;" data-color="#8B011E" role="button" tabindex="0"></span><span class="color" title="710055" style="background-color: #710055;" data-color="#710055" role="button" tabindex="0"></span><span class="color" title="120941" style="background-color: #120941;" data-color="#120941" role="button" tabindex="0"></span><span class="color" title="FFFFFF" style="background-color: #FFFFFF;" data-color="#FFFFFF" role="button" tabindex="0"></span><span class="color" title="E0E0E6" style="background-color: #E0E0E6;" data-color="#E0E0E6" role="button" tabindex="0"></span><span class="color" title="D3D3DA" style="background-color: #D3D3DA;" data-color="#D3D3DA" role="button" tabindex="0"></span><span class="color" title="C4C4C4" style="background-color: #C4C4C4;" data-color="#C4C4C4" role="button" tabindex="0"></span><span class="color" title="A2A2A2" style="background-color: #A2A2A2;" data-color="#A2A2A2" role="button" tabindex="0"></span><span class="color" title="767676" style="background-color: #767676;" data-color="#767676" role="button" tabindex="0"></span><span class="color" title="525252" style="background-color: #525252;" data-color="#525252" role="button" tabindex="0"></span><span class="color" title="2C2C2C" style="background-color: #2C2C2C;" data-color="#2C2C2C" role="button" tabindex="0"></span><span class="color" title="000000" style="background-color: #000000;" data-color="#000000" role="button" tabindex="0"></span></span>
+
+                            <input type="text" class="custom-color" style="display: none;"><div class="sp-replacer sp-light"><div class="sp-preview"><div class="sp-preview-inner sp-clear-display" style="background-color: transparent;"></div></div><div class="sp-dd">Свой цвет</div></div>
+                            <input type="text" name="value-color" class="value-color" value="">
+                            <input type="hidden" name="is-selected" value="">
+                        </div>
+                                            <div id="footer_header">
+                            <select name="colorpicker-option-selected" style="display: none;">
+                                                                    <option value="#B8E5FA">B8E5FA</option>
+                                                                    <option value="#BCE4EE">BCE4EE</option>
+                                                                    <option value="#81CA9D">81CA9D</option>
+                                                                    <option value="#C4DF9A">C4DF9A</option>
+                                                                    <option value="#FFF79A">FFF79A</option>
+                                                                    <option value="#FEC689">FEC689</option>
+                                                                    <option value="#F5978B">F5978B</option>
+                                                                    <option value="#D792BF">D792BF</option>
+                                                                    <option value="#8781BD">8781BD</option>
+                                                                    <option value="#6DCFF6">6DCFF6</option>
+                                                                    <option value="#75CEDE">75CEDE</option>
+                                                                    <option value="#2BB673">2BB673</option>
+                                                                    <option value="#A8D26E">A8D26E</option>
+                                                                    <option value="#FFF35F">FFF35F</option>
+                                                                    <option value="#FAAC57">FAAC57</option>
+                                                                    <option value="#F46664">F46664</option>
+                                                                    <option value="#C962A7">C962A7</option>
+                                                                    <option value="#5B56A6">5B56A6</option>
+                                                                    <option value="#01AEF0">01AEF0</option>
+                                                                    <option value="#00AAC6">00AAC6</option>
+                                                                    <option value="#00A650">00A650</option>
+                                                                    <option value="#8CC63E">8CC63E</option>
+                                                                    <option value="#FDF206">FDF206</option>
+                                                                    <option value="#F7941C">F7941C</option>
+                                                                    <option value="#ED1941">ED1941</option>
+                                                                    <option value="#BD1A8D">BD1A8D</option>
+                                                                    <option value="#2E3192">2E3192</option>
+                                                                    <option value="#006893">006893</option>
+                                                                    <option value="#018A9D">018A9D</option>
+                                                                    <option value="#008641">008641</option>
+                                                                    <option value="#6C9D30">6C9D30</option>
+                                                                    <option value="#CDBE01">CDBE01</option>
+                                                                    <option value="#C37414">C37414</option>
+                                                                    <option value="#BA0F31">BA0F31</option>
+                                                                    <option value="#970570">970570</option>
+                                                                    <option value="#1E1C66">1E1C66</option>
+                                                                    <option value="#024364">024364</option>
+                                                                    <option value="#00414F">00414F</option>
+                                                                    <option value="#016530">016530</option>
+                                                                    <option value="#49731E">49731E</option>
+                                                                    <option value="#958E03">958E03</option>
+                                                                    <option value="#915501">915501</option>
+                                                                    <option value="#8B011E">8B011E</option>
+                                                                    <option value="#710055">710055</option>
+                                                                    <option value="#120941">120941</option>
+                                                                    <option value="#FFFFFF">FFFFFF</option>
+                                                                    <option value="#E0E0E6">E0E0E6</option>
+                                                                    <option value="#D3D3DA">D3D3DA</option>
+                                                                    <option value="#C4C4C4">C4C4C4</option>
+                                                                    <option value="#A2A2A2">A2A2A2</option>
+                                                                    <option value="#767676">767676</option>
+                                                                    <option value="#525252">525252</option>
+                                                                    <option value="#2C2C2C">2C2C2C</option>
+                                                                    <option value="#000000">000000</option>
+                                                            </select><span class="simplecolorpicker inline glyphicons"><span class="color" title="B8E5FA" style="background-color: #B8E5FA;" data-color="#B8E5FA" role="button" tabindex="0"></span><span class="color" title="BCE4EE" style="background-color: #BCE4EE;" data-color="#BCE4EE" role="button" tabindex="0"></span><span class="color" title="81CA9D" style="background-color: #81CA9D;" data-color="#81CA9D" role="button" tabindex="0"></span><span class="color" title="C4DF9A" style="background-color: #C4DF9A;" data-color="#C4DF9A" role="button" tabindex="0"></span><span class="color" title="FFF79A" style="background-color: #FFF79A;" data-color="#FFF79A" role="button" tabindex="0"></span><span class="color" title="FEC689" style="background-color: #FEC689;" data-color="#FEC689" role="button" tabindex="0"></span><span class="color" title="F5978B" style="background-color: #F5978B;" data-color="#F5978B" role="button" tabindex="0"></span><span class="color" title="D792BF" style="background-color: #D792BF;" data-color="#D792BF" role="button" tabindex="0"></span><span class="color" title="8781BD" style="background-color: #8781BD;" data-color="#8781BD" role="button" tabindex="0"></span><span class="color" title="6DCFF6" style="background-color: #6DCFF6;" data-color="#6DCFF6" role="button" tabindex="0"></span><span class="color" title="75CEDE" style="background-color: #75CEDE;" data-color="#75CEDE" role="button" tabindex="0"></span><span class="color" title="2BB673" style="background-color: #2BB673;" data-color="#2BB673" role="button" tabindex="0"></span><span class="color" title="A8D26E" style="background-color: #A8D26E;" data-color="#A8D26E" role="button" tabindex="0"></span><span class="color" title="FFF35F" style="background-color: #FFF35F;" data-color="#FFF35F" role="button" tabindex="0"></span><span class="color" title="FAAC57" style="background-color: #FAAC57;" data-color="#FAAC57" role="button" tabindex="0"></span><span class="color" title="F46664" style="background-color: #F46664;" data-color="#F46664" role="button" tabindex="0"></span><span class="color" title="C962A7" style="background-color: #C962A7;" data-color="#C962A7" role="button" tabindex="0"></span><span class="color" title="5B56A6" style="background-color: #5B56A6;" data-color="#5B56A6" role="button" tabindex="0"></span><span class="color" title="01AEF0" style="background-color: #01AEF0;" data-color="#01AEF0" role="button" tabindex="0"></span><span class="color" title="00AAC6" style="background-color: #00AAC6;" data-color="#00AAC6" role="button" tabindex="0"></span><span class="color" title="00A650" style="background-color: #00A650;" data-color="#00A650" role="button" tabindex="0"></span><span class="color" title="8CC63E" style="background-color: #8CC63E;" data-color="#8CC63E" role="button" tabindex="0"></span><span class="color" title="FDF206" style="background-color: #FDF206;" data-color="#FDF206" role="button" tabindex="0"></span><span class="color" title="F7941C" style="background-color: #F7941C;" data-color="#F7941C" role="button" tabindex="0"></span><span class="color" title="ED1941" style="background-color: #ED1941;" data-color="#ED1941" role="button" tabindex="0"></span><span class="color" title="BD1A8D" style="background-color: #BD1A8D;" data-color="#BD1A8D" role="button" tabindex="0"></span><span class="color" title="2E3192" style="background-color: #2E3192;" data-color="#2E3192" role="button" tabindex="0"></span><span class="color" title="006893" style="background-color: #006893;" data-color="#006893" role="button" tabindex="0"></span><span class="color" title="018A9D" style="background-color: #018A9D;" data-color="#018A9D" role="button" tabindex="0"></span><span class="color" title="008641" style="background-color: #008641;" data-color="#008641" role="button" tabindex="0"></span><span class="color" title="6C9D30" style="background-color: #6C9D30;" data-color="#6C9D30" role="button" tabindex="0"></span><span class="color" title="CDBE01" style="background-color: #CDBE01;" data-color="#CDBE01" role="button" tabindex="0"></span><span class="color" title="C37414" style="background-color: #C37414;" data-color="#C37414" role="button" tabindex="0"></span><span class="color" title="BA0F31" style="background-color: #BA0F31;" data-color="#BA0F31" role="button" tabindex="0"></span><span class="color" title="970570" style="background-color: #970570;" data-color="#970570" role="button" tabindex="0"></span><span class="color" title="1E1C66" style="background-color: #1E1C66;" data-color="#1E1C66" role="button" tabindex="0"></span><span class="color" title="024364" style="background-color: #024364;" data-color="#024364" role="button" tabindex="0"></span><span class="color" title="00414F" style="background-color: #00414F;" data-color="#00414F" role="button" tabindex="0"></span><span class="color" title="016530" style="background-color: #016530;" data-color="#016530" role="button" tabindex="0"></span><span class="color" title="49731E" style="background-color: #49731E;" data-color="#49731E" role="button" tabindex="0"></span><span class="color" title="958E03" style="background-color: #958E03;" data-color="#958E03" role="button" tabindex="0"></span><span class="color" title="915501" style="background-color: #915501;" data-color="#915501" role="button" tabindex="0"></span><span class="color" title="8B011E" style="background-color: #8B011E;" data-color="#8B011E" role="button" tabindex="0"></span><span class="color" title="710055" style="background-color: #710055;" data-color="#710055" role="button" tabindex="0"></span><span class="color" title="120941" style="background-color: #120941;" data-color="#120941" role="button" tabindex="0"></span><span class="color" title="FFFFFF" style="background-color: #FFFFFF;" data-color="#FFFFFF" role="button" tabindex="0"></span><span class="color" title="E0E0E6" style="background-color: #E0E0E6;" data-color="#E0E0E6" role="button" tabindex="0"></span><span class="color" title="D3D3DA" style="background-color: #D3D3DA;" data-color="#D3D3DA" role="button" tabindex="0"></span><span class="color" title="C4C4C4" style="background-color: #C4C4C4;" data-color="#C4C4C4" role="button" tabindex="0"></span><span class="color" title="A2A2A2" style="background-color: #A2A2A2;" data-color="#A2A2A2" role="button" tabindex="0"></span><span class="color" title="767676" style="background-color: #767676;" data-color="#767676" role="button" tabindex="0"></span><span class="color" title="525252" style="background-color: #525252;" data-color="#525252" role="button" tabindex="0"></span><span class="color" title="2C2C2C" style="background-color: #2C2C2C;" data-color="#2C2C2C" role="button" tabindex="0"></span><span class="color" title="000000" style="background-color: #000000;" data-color="#000000" role="button" tabindex="0"></span></span>
+
+                            <input type="text" class="custom-color" style="display: none;"><div class="sp-replacer sp-light"><div class="sp-preview"><div class="sp-preview-inner sp-clear-display" style="background-color: transparent;"></div></div><div class="sp-dd">Свой цвет</div></div>
+                            <input type="text" name="value-color" class="value-color" value="">
+                            <input type="hidden" name="is-selected" value="">
+                        </div>
+                                            <div id="text_page">
+                            <select name="colorpicker-option-selected" style="display: none;">
+                                                                    <option value="#B8E5FA">B8E5FA</option>
+                                                                    <option value="#BCE4EE">BCE4EE</option>
+                                                                    <option value="#81CA9D">81CA9D</option>
+                                                                    <option value="#C4DF9A">C4DF9A</option>
+                                                                    <option value="#FFF79A">FFF79A</option>
+                                                                    <option value="#FEC689">FEC689</option>
+                                                                    <option value="#F5978B">F5978B</option>
+                                                                    <option value="#D792BF">D792BF</option>
+                                                                    <option value="#8781BD">8781BD</option>
+                                                                    <option value="#6DCFF6">6DCFF6</option>
+                                                                    <option value="#75CEDE">75CEDE</option>
+                                                                    <option value="#2BB673">2BB673</option>
+                                                                    <option value="#A8D26E">A8D26E</option>
+                                                                    <option value="#FFF35F">FFF35F</option>
+                                                                    <option value="#FAAC57">FAAC57</option>
+                                                                    <option value="#F46664">F46664</option>
+                                                                    <option value="#C962A7">C962A7</option>
+                                                                    <option value="#5B56A6">5B56A6</option>
+                                                                    <option value="#01AEF0">01AEF0</option>
+                                                                    <option value="#00AAC6">00AAC6</option>
+                                                                    <option value="#00A650">00A650</option>
+                                                                    <option value="#8CC63E">8CC63E</option>
+                                                                    <option value="#FDF206">FDF206</option>
+                                                                    <option value="#F7941C">F7941C</option>
+                                                                    <option value="#ED1941">ED1941</option>
+                                                                    <option value="#BD1A8D">BD1A8D</option>
+                                                                    <option value="#2E3192">2E3192</option>
+                                                                    <option value="#006893">006893</option>
+                                                                    <option value="#018A9D">018A9D</option>
+                                                                    <option value="#008641">008641</option>
+                                                                    <option value="#6C9D30">6C9D30</option>
+                                                                    <option value="#CDBE01">CDBE01</option>
+                                                                    <option value="#C37414">C37414</option>
+                                                                    <option value="#BA0F31">BA0F31</option>
+                                                                    <option value="#970570">970570</option>
+                                                                    <option value="#1E1C66">1E1C66</option>
+                                                                    <option value="#024364">024364</option>
+                                                                    <option value="#00414F">00414F</option>
+                                                                    <option value="#016530">016530</option>
+                                                                    <option value="#49731E">49731E</option>
+                                                                    <option value="#958E03">958E03</option>
+                                                                    <option value="#915501">915501</option>
+                                                                    <option value="#8B011E">8B011E</option>
+                                                                    <option value="#710055">710055</option>
+                                                                    <option value="#120941">120941</option>
+                                                                    <option value="#FFFFFF">FFFFFF</option>
+                                                                    <option value="#E0E0E6">E0E0E6</option>
+                                                                    <option value="#D3D3DA">D3D3DA</option>
+                                                                    <option value="#C4C4C4">C4C4C4</option>
+                                                                    <option value="#A2A2A2">A2A2A2</option>
+                                                                    <option value="#767676">767676</option>
+                                                                    <option value="#525252">525252</option>
+                                                                    <option value="#2C2C2C">2C2C2C</option>
+                                                                    <option value="#000000">000000</option>
+                                                            </select><span class="simplecolorpicker inline glyphicons"><span class="color" title="B8E5FA" style="background-color: #B8E5FA;" data-color="#B8E5FA" role="button" tabindex="0"></span><span class="color" title="BCE4EE" style="background-color: #BCE4EE;" data-color="#BCE4EE" role="button" tabindex="0"></span><span class="color" title="81CA9D" style="background-color: #81CA9D;" data-color="#81CA9D" role="button" tabindex="0"></span><span class="color" title="C4DF9A" style="background-color: #C4DF9A;" data-color="#C4DF9A" role="button" tabindex="0"></span><span class="color" title="FFF79A" style="background-color: #FFF79A;" data-color="#FFF79A" role="button" tabindex="0"></span><span class="color" title="FEC689" style="background-color: #FEC689;" data-color="#FEC689" role="button" tabindex="0"></span><span class="color" title="F5978B" style="background-color: #F5978B;" data-color="#F5978B" role="button" tabindex="0"></span><span class="color" title="D792BF" style="background-color: #D792BF;" data-color="#D792BF" role="button" tabindex="0"></span><span class="color" title="8781BD" style="background-color: #8781BD;" data-color="#8781BD" role="button" tabindex="0"></span><span class="color" title="6DCFF6" style="background-color: #6DCFF6;" data-color="#6DCFF6" role="button" tabindex="0"></span><span class="color" title="75CEDE" style="background-color: #75CEDE;" data-color="#75CEDE" role="button" tabindex="0"></span><span class="color" title="2BB673" style="background-color: #2BB673;" data-color="#2BB673" role="button" tabindex="0"></span><span class="color" title="A8D26E" style="background-color: #A8D26E;" data-color="#A8D26E" role="button" tabindex="0"></span><span class="color" title="FFF35F" style="background-color: #FFF35F;" data-color="#FFF35F" role="button" tabindex="0"></span><span class="color" title="FAAC57" style="background-color: #FAAC57;" data-color="#FAAC57" role="button" tabindex="0"></span><span class="color" title="F46664" style="background-color: #F46664;" data-color="#F46664" role="button" tabindex="0"></span><span class="color" title="C962A7" style="background-color: #C962A7;" data-color="#C962A7" role="button" tabindex="0"></span><span class="color" title="5B56A6" style="background-color: #5B56A6;" data-color="#5B56A6" role="button" tabindex="0"></span><span class="color" title="01AEF0" style="background-color: #01AEF0;" data-color="#01AEF0" role="button" tabindex="0"></span><span class="color" title="00AAC6" style="background-color: #00AAC6;" data-color="#00AAC6" role="button" tabindex="0"></span><span class="color" title="00A650" style="background-color: #00A650;" data-color="#00A650" role="button" tabindex="0"></span><span class="color" title="8CC63E" style="background-color: #8CC63E;" data-color="#8CC63E" role="button" tabindex="0"></span><span class="color" title="FDF206" style="background-color: #FDF206;" data-color="#FDF206" role="button" tabindex="0"></span><span class="color" title="F7941C" style="background-color: #F7941C;" data-color="#F7941C" role="button" tabindex="0"></span><span class="color" title="ED1941" style="background-color: #ED1941;" data-color="#ED1941" role="button" tabindex="0"></span><span class="color" title="BD1A8D" style="background-color: #BD1A8D;" data-color="#BD1A8D" role="button" tabindex="0"></span><span class="color" title="2E3192" style="background-color: #2E3192;" data-color="#2E3192" role="button" tabindex="0"></span><span class="color" title="006893" style="background-color: #006893;" data-color="#006893" role="button" tabindex="0"></span><span class="color" title="018A9D" style="background-color: #018A9D;" data-color="#018A9D" role="button" tabindex="0"></span><span class="color" title="008641" style="background-color: #008641;" data-color="#008641" role="button" tabindex="0"></span><span class="color" title="6C9D30" style="background-color: #6C9D30;" data-color="#6C9D30" role="button" tabindex="0"></span><span class="color" title="CDBE01" style="background-color: #CDBE01;" data-color="#CDBE01" role="button" tabindex="0"></span><span class="color" title="C37414" style="background-color: #C37414;" data-color="#C37414" role="button" tabindex="0"></span><span class="color" title="BA0F31" style="background-color: #BA0F31;" data-color="#BA0F31" role="button" tabindex="0"></span><span class="color" title="970570" style="background-color: #970570;" data-color="#970570" role="button" tabindex="0"></span><span class="color" title="1E1C66" style="background-color: #1E1C66;" data-color="#1E1C66" role="button" tabindex="0"></span><span class="color" title="024364" style="background-color: #024364;" data-color="#024364" role="button" tabindex="0"></span><span class="color" title="00414F" style="background-color: #00414F;" data-color="#00414F" role="button" tabindex="0"></span><span class="color" title="016530" style="background-color: #016530;" data-color="#016530" role="button" tabindex="0"></span><span class="color" title="49731E" style="background-color: #49731E;" data-color="#49731E" role="button" tabindex="0"></span><span class="color" title="958E03" style="background-color: #958E03;" data-color="#958E03" role="button" tabindex="0"></span><span class="color" title="915501" style="background-color: #915501;" data-color="#915501" role="button" tabindex="0"></span><span class="color" title="8B011E" style="background-color: #8B011E;" data-color="#8B011E" role="button" tabindex="0"></span><span class="color" title="710055" style="background-color: #710055;" data-color="#710055" role="button" tabindex="0"></span><span class="color" title="120941" style="background-color: #120941;" data-color="#120941" role="button" tabindex="0"></span><span class="color" title="FFFFFF" style="background-color: #FFFFFF;" data-color="#FFFFFF" role="button" tabindex="0"></span><span class="color" title="E0E0E6" style="background-color: #E0E0E6;" data-color="#E0E0E6" role="button" tabindex="0"></span><span class="color" title="D3D3DA" style="background-color: #D3D3DA;" data-color="#D3D3DA" role="button" tabindex="0"></span><span class="color" title="C4C4C4" style="background-color: #C4C4C4;" data-color="#C4C4C4" role="button" tabindex="0"></span><span class="color" title="A2A2A2" style="background-color: #A2A2A2;" data-color="#A2A2A2" role="button" tabindex="0"></span><span class="color" title="767676" style="background-color: #767676;" data-color="#767676" role="button" tabindex="0"></span><span class="color" title="525252" style="background-color: #525252;" data-color="#525252" role="button" tabindex="0"></span><span class="color" title="2C2C2C" style="background-color: #2C2C2C;" data-color="#2C2C2C" role="button" tabindex="0"></span><span class="color" title="000000" style="background-color: #000000;" data-color="#000000" role="button" tabindex="0"></span></span>
+
+                            <input type="text" class="custom-color" style="display: none;"><div class="sp-replacer sp-light"><div class="sp-preview"><div class="sp-preview-inner sp-clear-display" style="background-color: transparent;"></div></div><div class="sp-dd">Свой цвет</div></div>
+                            <input type="text" name="value-color" class="value-color" value="">
+                            <input type="hidden" name="is-selected" value="">
+                        </div>
+                                            <div id="sub_elements">
+                            <select name="colorpicker-option-selected" style="display: none;">
+                                                                    <option value="#B8E5FA">B8E5FA</option>
+                                                                    <option value="#BCE4EE">BCE4EE</option>
+                                                                    <option value="#81CA9D">81CA9D</option>
+                                                                    <option value="#C4DF9A">C4DF9A</option>
+                                                                    <option value="#FFF79A">FFF79A</option>
+                                                                    <option value="#FEC689">FEC689</option>
+                                                                    <option value="#F5978B">F5978B</option>
+                                                                    <option value="#D792BF">D792BF</option>
+                                                                    <option value="#8781BD">8781BD</option>
+                                                                    <option value="#6DCFF6">6DCFF6</option>
+                                                                    <option value="#75CEDE">75CEDE</option>
+                                                                    <option value="#2BB673">2BB673</option>
+                                                                    <option value="#A8D26E">A8D26E</option>
+                                                                    <option value="#FFF35F">FFF35F</option>
+                                                                    <option value="#FAAC57">FAAC57</option>
+                                                                    <option value="#F46664">F46664</option>
+                                                                    <option value="#C962A7">C962A7</option>
+                                                                    <option value="#5B56A6">5B56A6</option>
+                                                                    <option value="#01AEF0">01AEF0</option>
+                                                                    <option value="#00AAC6">00AAC6</option>
+                                                                    <option value="#00A650">00A650</option>
+                                                                    <option value="#8CC63E">8CC63E</option>
+                                                                    <option value="#FDF206">FDF206</option>
+                                                                    <option value="#F7941C">F7941C</option>
+                                                                    <option value="#ED1941">ED1941</option>
+                                                                    <option value="#BD1A8D">BD1A8D</option>
+                                                                    <option value="#2E3192">2E3192</option>
+                                                                    <option value="#006893">006893</option>
+                                                                    <option value="#018A9D">018A9D</option>
+                                                                    <option value="#008641">008641</option>
+                                                                    <option value="#6C9D30">6C9D30</option>
+                                                                    <option value="#CDBE01">CDBE01</option>
+                                                                    <option value="#C37414">C37414</option>
+                                                                    <option value="#BA0F31">BA0F31</option>
+                                                                    <option value="#970570">970570</option>
+                                                                    <option value="#1E1C66">1E1C66</option>
+                                                                    <option value="#024364">024364</option>
+                                                                    <option value="#00414F">00414F</option>
+                                                                    <option value="#016530">016530</option>
+                                                                    <option value="#49731E">49731E</option>
+                                                                    <option value="#958E03">958E03</option>
+                                                                    <option value="#915501">915501</option>
+                                                                    <option value="#8B011E">8B011E</option>
+                                                                    <option value="#710055">710055</option>
+                                                                    <option value="#120941">120941</option>
+                                                                    <option value="#FFFFFF">FFFFFF</option>
+                                                                    <option value="#E0E0E6">E0E0E6</option>
+                                                                    <option value="#D3D3DA">D3D3DA</option>
+                                                                    <option value="#C4C4C4">C4C4C4</option>
+                                                                    <option value="#A2A2A2">A2A2A2</option>
+                                                                    <option value="#767676">767676</option>
+                                                                    <option value="#525252">525252</option>
+                                                                    <option value="#2C2C2C">2C2C2C</option>
+                                                                    <option value="#000000">000000</option>
+                                                            </select><span class="simplecolorpicker inline glyphicons"><span class="color" title="B8E5FA" style="background-color: #B8E5FA;" data-color="#B8E5FA" role="button" tabindex="0"></span><span class="color" title="BCE4EE" style="background-color: #BCE4EE;" data-color="#BCE4EE" role="button" tabindex="0"></span><span class="color" title="81CA9D" style="background-color: #81CA9D;" data-color="#81CA9D" role="button" tabindex="0"></span><span class="color" title="C4DF9A" style="background-color: #C4DF9A;" data-color="#C4DF9A" role="button" tabindex="0"></span><span class="color" title="FFF79A" style="background-color: #FFF79A;" data-color="#FFF79A" role="button" tabindex="0"></span><span class="color" title="FEC689" style="background-color: #FEC689;" data-color="#FEC689" role="button" tabindex="0"></span><span class="color" title="F5978B" style="background-color: #F5978B;" data-color="#F5978B" role="button" tabindex="0"></span><span class="color" title="D792BF" style="background-color: #D792BF;" data-color="#D792BF" role="button" tabindex="0"></span><span class="color" title="8781BD" style="background-color: #8781BD;" data-color="#8781BD" role="button" tabindex="0"></span><span class="color" title="6DCFF6" style="background-color: #6DCFF6;" data-color="#6DCFF6" role="button" tabindex="0"></span><span class="color" title="75CEDE" style="background-color: #75CEDE;" data-color="#75CEDE" role="button" tabindex="0"></span><span class="color" title="2BB673" style="background-color: #2BB673;" data-color="#2BB673" role="button" tabindex="0"></span><span class="color" title="A8D26E" style="background-color: #A8D26E;" data-color="#A8D26E" role="button" tabindex="0"></span><span class="color" title="FFF35F" style="background-color: #FFF35F;" data-color="#FFF35F" role="button" tabindex="0"></span><span class="color" title="FAAC57" style="background-color: #FAAC57;" data-color="#FAAC57" role="button" tabindex="0"></span><span class="color" title="F46664" style="background-color: #F46664;" data-color="#F46664" role="button" tabindex="0"></span><span class="color" title="C962A7" style="background-color: #C962A7;" data-color="#C962A7" role="button" tabindex="0"></span><span class="color" title="5B56A6" style="background-color: #5B56A6;" data-color="#5B56A6" role="button" tabindex="0"></span><span class="color" title="01AEF0" style="background-color: #01AEF0;" data-color="#01AEF0" role="button" tabindex="0"></span><span class="color" title="00AAC6" style="background-color: #00AAC6;" data-color="#00AAC6" role="button" tabindex="0"></span><span class="color" title="00A650" style="background-color: #00A650;" data-color="#00A650" role="button" tabindex="0"></span><span class="color" title="8CC63E" style="background-color: #8CC63E;" data-color="#8CC63E" role="button" tabindex="0"></span><span class="color" title="FDF206" style="background-color: #FDF206;" data-color="#FDF206" role="button" tabindex="0"></span><span class="color" title="F7941C" style="background-color: #F7941C;" data-color="#F7941C" role="button" tabindex="0"></span><span class="color" title="ED1941" style="background-color: #ED1941;" data-color="#ED1941" role="button" tabindex="0"></span><span class="color" title="BD1A8D" style="background-color: #BD1A8D;" data-color="#BD1A8D" role="button" tabindex="0"></span><span class="color" title="2E3192" style="background-color: #2E3192;" data-color="#2E3192" role="button" tabindex="0"></span><span class="color" title="006893" style="background-color: #006893;" data-color="#006893" role="button" tabindex="0"></span><span class="color" title="018A9D" style="background-color: #018A9D;" data-color="#018A9D" role="button" tabindex="0"></span><span class="color" title="008641" style="background-color: #008641;" data-color="#008641" role="button" tabindex="0"></span><span class="color" title="6C9D30" style="background-color: #6C9D30;" data-color="#6C9D30" role="button" tabindex="0"></span><span class="color" title="CDBE01" style="background-color: #CDBE01;" data-color="#CDBE01" role="button" tabindex="0"></span><span class="color" title="C37414" style="background-color: #C37414;" data-color="#C37414" role="button" tabindex="0"></span><span class="color" title="BA0F31" style="background-color: #BA0F31;" data-color="#BA0F31" role="button" tabindex="0"></span><span class="color" title="970570" style="background-color: #970570;" data-color="#970570" role="button" tabindex="0"></span><span class="color" title="1E1C66" style="background-color: #1E1C66;" data-color="#1E1C66" role="button" tabindex="0"></span><span class="color" title="024364" style="background-color: #024364;" data-color="#024364" role="button" tabindex="0"></span><span class="color" title="00414F" style="background-color: #00414F;" data-color="#00414F" role="button" tabindex="0"></span><span class="color" title="016530" style="background-color: #016530;" data-color="#016530" role="button" tabindex="0"></span><span class="color" title="49731E" style="background-color: #49731E;" data-color="#49731E" role="button" tabindex="0"></span><span class="color" title="958E03" style="background-color: #958E03;" data-color="#958E03" role="button" tabindex="0"></span><span class="color" title="915501" style="background-color: #915501;" data-color="#915501" role="button" tabindex="0"></span><span class="color" title="8B011E" style="background-color: #8B011E;" data-color="#8B011E" role="button" tabindex="0"></span><span class="color" title="710055" style="background-color: #710055;" data-color="#710055" role="button" tabindex="0"></span><span class="color" title="120941" style="background-color: #120941;" data-color="#120941" role="button" tabindex="0"></span><span class="color" title="FFFFFF" style="background-color: #FFFFFF;" data-color="#FFFFFF" role="button" tabindex="0"></span><span class="color" title="E0E0E6" style="background-color: #E0E0E6;" data-color="#E0E0E6" role="button" tabindex="0"></span><span class="color" title="D3D3DA" style="background-color: #D3D3DA;" data-color="#D3D3DA" role="button" tabindex="0"></span><span class="color" title="C4C4C4" style="background-color: #C4C4C4;" data-color="#C4C4C4" role="button" tabindex="0"></span><span class="color" title="A2A2A2" style="background-color: #A2A2A2;" data-color="#A2A2A2" role="button" tabindex="0"></span><span class="color" title="767676" style="background-color: #767676;" data-color="#767676" role="button" tabindex="0"></span><span class="color" title="525252" style="background-color: #525252;" data-color="#525252" role="button" tabindex="0"></span><span class="color" title="2C2C2C" style="background-color: #2C2C2C;" data-color="#2C2C2C" role="button" tabindex="0"></span><span class="color" title="000000" style="background-color: #000000;" data-color="#000000" role="button" tabindex="0"></span></span>
+
+                            <input type="text" class="custom-color" style="display: none;"><div class="sp-replacer sp-light"><div class="sp-preview"><div class="sp-preview-inner sp-clear-display" style="background-color: transparent;"></div></div><div class="sp-dd">Свой цвет</div></div>
+                            <input type="text" name="value-color" class="value-color" value="">
+                            <input type="hidden" name="is-selected" value="">
+                        </div>
+                                    </div>
+            </div>
+        </div>
+        
+        <div class="accord-header">
+            <div class="name">Выберите вариант отображения</div>
+            <span class="glyphicon glyphicon-chevron-down"></span>
+        </div>
+        <div class="accord-content">
+            <div class="wrapper-theme" id="work-slider">
+                <div class="select-color-theme">
+                    <div class="name-block">Слайдер:</div>
+                                            <input type="radio" name="list-slider" class="radio" id="slider_1" value="1"><label for="slider_1">Вариант 1 (фото справа)</label><br>
+                                            <input type="radio" name="list-slider" class="radio" id="slider_2" value="2"><label for="slider_2">Вариант 2 (фото на всю ширину блока)</label><br>
+                                    </div>
+            </div>
+            <div class="wrapper-theme" id="work-type-line">
+                <div class="select-color-theme">
+                    <div class="name-block">Направления деятельности:</div>
+                                            <input type="radio" name="list-typeline" class="radio" id="type_line_1" value="1"><label for="type_line_1">Вариант 1 (горизонтальный слайдер)</label><br>
+                                            <input type="radio" name="list-typeline" class="radio" id="type_line_2" value="2"><label for="type_line_2">Вариант 2 (вертикальный левый блок)</label><br>
+                                    </div>
+            </div>
+        </div>
+    </div>
+
+    <script>                      
+        $(document).ready(function(){
+            $('.sp-dd').html('Свой цвет');
+        });
+    </script>
+
+
+    <div class="panel-button">
+        <button class="btn btn-default btn-blue" id="change_scheme">Сохранить</button>
+        <button class="btn btn-default" id="default_scheme">Сбросить</button>
+
+        <div class="clearfix"></div>
+    </div>
+
+ </div>
+</div><div class="toggler">
+	<span class="glyphicon glyphicon-cog">&nbsp;</span> 
+</div></div>
+<style>
+
+
+
+</style>
+<link href="./Тренинг-центр_files/sidebar_version.css" type="text/css" rel="stylesheet">
+
+<div id="version_win" class="sidebar_version">
+<!--p class="text-prev margin_none">Варианты сайта</p>-->
+<div class="panel-header-2">
+        Варианты сайта        
+		<button class="close_win" type="button">
+		<span class="glyphicon glyphicon-remove"> </span></button>
+</div>
+	<div class="wraper_version">
+		<div class="version_content">
+			<a href="http://demo.trening.mibok.ru/v1/">
+				<img class="active-prev" src="./Тренинг-центр_files/s2.png" width="210px">
+				<div class="version_conten_wraper_img">
+						<span>Смотреть</span>
+				</div>	
+				<p class="text-prev active-text">Вариант дизайна № 1</p>
+			</a>
+		</div>
+		<div class="version_content">
+			<a href="http://demo.trening.mibok.ru/v2/">
+				<img class="" src="./Тренинг-центр_files/s3.png" width="210px">
+				<div class="version_conten_wraper_img">
+						<span>Смотреть</span>
+				</div>
+				<p class="text-prev ">Вариант дизайна № 2</p>
+			</a>
+		</div>
+	<!--<div class="close">x</div>-->
+	</div>
+		<a href="http://trening.mibok.ru/compare/" class="wrap-link active-text">Сравнительная таблица вариантов дизайна</a>	
+	<div class="toggler_open_v">
+		<div class="open_ver">
+			<!--<img class="" src="/img/svg/open_version.svg">-->
+		</div>
+	</div>
+</div>
+<div id="panel_site_2_backdrop"></div>
+
+<script>
+		$('.toggler_open_v').on('click', function(){
+			$('#version_win').addClass('on');
+			$('.toggler_open_v').addClass('off');
+		});
+		$('.close_win').on('click', function(){
+			$('#version_win').toggleClass('on');
+			$('.toggler_open_v').toggleClass('off');
+		});
+</script>
+
+<div class="sp-container sp-hidden sp-light sp-clear-enabled sp-buttons-disabled sp-palette-buttons-disabled sp-palette-disabled sp-initial-disabled" style="position: absolute; top: 0px; left: 0px;"><div class="sp-palette-container"><div class="sp-palette sp-thumb sp-cf"></div><div class="sp-palette-button-container sp-cf"><button type="button" class="sp-palette-toggle">less</button></div></div><div class="sp-picker-container"><div class="sp-top sp-cf"><div class="sp-fill"></div><div class="sp-top-inner"><div class="sp-color" style="background-color: rgb(255, 0, 0);"><div class="sp-sat"><div class="sp-val"><div class="sp-dragger" style="display: none;"></div></div></div></div><div class="sp-clear sp-clear-display" title="Clear Color Selection"></div><div class="sp-hue"><div class="sp-slider" style="display: none;"></div></div></div><div class="sp-alpha"><div class="sp-alpha-inner"><div class="sp-alpha-handle" style="display: none;"></div></div></div></div><div class="sp-input-container sp-cf"><input class="sp-input" type="text" spellcheck="false"></div><div class="sp-initial sp-thumb sp-cf"></div><div class="sp-button-container sp-cf"><a class="sp-cancel" href="http://demo.trening.mibok.ru/v1/#">cancel</a><button type="button" class="sp-choose">choose</button></div></div></div><div class="sp-container sp-hidden sp-light sp-clear-enabled sp-buttons-disabled sp-palette-buttons-disabled sp-palette-disabled sp-initial-disabled" style="position: absolute; top: 0px; left: 0px;"><div class="sp-palette-container"><div class="sp-palette sp-thumb sp-cf"></div><div class="sp-palette-button-container sp-cf"><button type="button" class="sp-palette-toggle">less</button></div></div><div class="sp-picker-container"><div class="sp-top sp-cf"><div class="sp-fill"></div><div class="sp-top-inner"><div class="sp-color" style="background-color: rgb(255, 0, 0);"><div class="sp-sat"><div class="sp-val"><div class="sp-dragger" style="display: none;"></div></div></div></div><div class="sp-clear sp-clear-display" title="Clear Color Selection"></div><div class="sp-hue"><div class="sp-slider" style="display: none;"></div></div></div><div class="sp-alpha"><div class="sp-alpha-inner"><div class="sp-alpha-handle" style="display: none;"></div></div></div></div><div class="sp-input-container sp-cf"><input class="sp-input" type="text" spellcheck="false"></div><div class="sp-initial sp-thumb sp-cf"></div><div class="sp-button-container sp-cf"><a class="sp-cancel" href="http://demo.trening.mibok.ru/v1/#">cancel</a><button type="button" class="sp-choose">choose</button></div></div></div><div class="sp-container sp-hidden sp-light sp-clear-enabled sp-buttons-disabled sp-palette-buttons-disabled sp-palette-disabled sp-initial-disabled" style="position: absolute; top: 0px; left: 0px;"><div class="sp-palette-container"><div class="sp-palette sp-thumb sp-cf"></div><div class="sp-palette-button-container sp-cf"><button type="button" class="sp-palette-toggle">less</button></div></div><div class="sp-picker-container"><div class="sp-top sp-cf"><div class="sp-fill"></div><div class="sp-top-inner"><div class="sp-color" style="background-color: rgb(255, 0, 0);"><div class="sp-sat"><div class="sp-val"><div class="sp-dragger" style="display: none;"></div></div></div></div><div class="sp-clear sp-clear-display" title="Clear Color Selection"></div><div class="sp-hue"><div class="sp-slider" style="display: none;"></div></div></div><div class="sp-alpha"><div class="sp-alpha-inner"><div class="sp-alpha-handle" style="display: none;"></div></div></div></div><div class="sp-input-container sp-cf"><input class="sp-input" type="text" spellcheck="false"></div><div class="sp-initial sp-thumb sp-cf"></div><div class="sp-button-container sp-cf"><a class="sp-cancel" href="http://demo.trening.mibok.ru/v1/#">cancel</a><button type="button" class="sp-choose">choose</button></div></div></div><div class="sp-container sp-hidden sp-light sp-clear-enabled sp-buttons-disabled sp-palette-buttons-disabled sp-palette-disabled sp-initial-disabled" style="position: absolute; top: 0px; left: 0px;"><div class="sp-palette-container"><div class="sp-palette sp-thumb sp-cf"></div><div class="sp-palette-button-container sp-cf"><button type="button" class="sp-palette-toggle">less</button></div></div><div class="sp-picker-container"><div class="sp-top sp-cf"><div class="sp-fill"></div><div class="sp-top-inner"><div class="sp-color" style="background-color: rgb(255, 0, 0);"><div class="sp-sat"><div class="sp-val"><div class="sp-dragger" style="display: none;"></div></div></div></div><div class="sp-clear sp-clear-display" title="Clear Color Selection"></div><div class="sp-hue"><div class="sp-slider" style="display: none;"></div></div></div><div class="sp-alpha"><div class="sp-alpha-inner"><div class="sp-alpha-handle" style="display: none;"></div></div></div></div><div class="sp-input-container sp-cf"><input class="sp-input" type="text" spellcheck="false"></div><div class="sp-initial sp-thumb sp-cf"></div><div class="sp-button-container sp-cf"><a class="sp-cancel" href="http://demo.trening.mibok.ru/v1/#">cancel</a><button type="button" class="sp-choose">choose</button></div></div></div><div class="sp-container sp-hidden sp-light sp-clear-enabled sp-buttons-disabled sp-palette-buttons-disabled sp-palette-disabled sp-initial-disabled" style="position: absolute; top: 0px; left: 0px;"><div class="sp-palette-container"><div class="sp-palette sp-thumb sp-cf"></div><div class="sp-palette-button-container sp-cf"><button type="button" class="sp-palette-toggle">less</button></div></div><div class="sp-picker-container"><div class="sp-top sp-cf"><div class="sp-fill"></div><div class="sp-top-inner"><div class="sp-color" style="background-color: rgb(255, 0, 0);"><div class="sp-sat"><div class="sp-val"><div class="sp-dragger" style="display: none;"></div></div></div></div><div class="sp-clear sp-clear-display" title="Clear Color Selection"></div><div class="sp-hue"><div class="sp-slider" style="display: none;"></div></div></div><div class="sp-alpha"><div class="sp-alpha-inner"><div class="sp-alpha-handle" style="display: none;"></div></div></div></div><div class="sp-input-container sp-cf"><input class="sp-input" type="text" spellcheck="false"></div><div class="sp-initial sp-thumb sp-cf"></div><div class="sp-button-container sp-cf"><a class="sp-cancel" href="http://demo.trening.mibok.ru/v1/#">cancel</a><button type="button" class="sp-choose">choose</button></div></div></div><div class="sp-container sp-hidden sp-light sp-clear-enabled sp-buttons-disabled sp-palette-buttons-disabled sp-palette-disabled sp-initial-disabled" style="position: absolute; top: 0px; left: 0px;"><div class="sp-palette-container"><div class="sp-palette sp-thumb sp-cf"></div><div class="sp-palette-button-container sp-cf"><button type="button" class="sp-palette-toggle">less</button></div></div><div class="sp-picker-container"><div class="sp-top sp-cf"><div class="sp-fill"></div><div class="sp-top-inner"><div class="sp-color" style="background-color: rgb(255, 0, 0);"><div class="sp-sat"><div class="sp-val"><div class="sp-dragger" style="display: none;"></div></div></div></div><div class="sp-clear sp-clear-display" title="Clear Color Selection"></div><div class="sp-hue"><div class="sp-slider" style="display: none;"></div></div></div><div class="sp-alpha"><div class="sp-alpha-inner"><div class="sp-alpha-handle" style="display: none;"></div></div></div></div><div class="sp-input-container sp-cf"><input class="sp-input" type="text" spellcheck="false"></div><div class="sp-initial sp-thumb sp-cf"></div><div class="sp-button-container sp-cf"><a class="sp-cancel" href="http://demo.trening.mibok.ru/v1/#">cancel</a><button type="button" class="sp-choose">choose</button></div></div></div></body></html>
