@@ -1,6 +1,6 @@
 @echo off
 
-set "VIRTUAL_ENV=D:\Для Баргу\Курсачи\МиниКурсовая работа ПЗ\web-app\venv"
+set "VIRTUAL_ENV=D:\Для Баргу\Курсачи\МиниКурсовая работа ПЗ\TrainingCenterSite\web-app\venv"
 
 if defined _OLD_VIRTUAL_PROMPT (
     set "PROMPT=%_OLD_VIRTUAL_PROMPT%"

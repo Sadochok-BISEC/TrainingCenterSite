@@ -1,27 +1,248 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8c8f586c-7d74-49d3-9e25-6a17df71f27a" name="Changes" comment="" />
+    <list default="true" id="8c8f586c-7d74-49d3-9e25-6a17df71f27a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/errorpage/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/errorpage/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/errorpage/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/errorpage/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/errorpage/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/errorpage/static/errorpage/css/ErrorFa.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/errorpage/static/errorpage/css/ErrorFont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/errorpage/static/errorpage/css/ErrorFontCyrillic.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/errorpage/static/errorpage/css/ErrorForms.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/errorpage/static/errorpage/css/ErrorModal.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/errorpage/static/errorpage/css/ErrorNormalize.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/errorpage/static/errorpage/img/error.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/errorpage/static/errorpage/js/ErrorAnime.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/errorpage/static/errorpage/js/ErrorAstc.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/errorpage/static/errorpage/js/ErrorAuth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/errorpage/static/errorpage/js/ErrorIquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/errorpage/static/errorpage/js/ErrorMask.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/errorpage/static/errorpage/js/ErrorScript.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/errorpage/static/errorpage/js/ErrorUnderscore-min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/errorpage/static/errorpage/js/Errorlazyload.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/errorpage/templates/errorpage/ErrorPage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/errorpage/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/errorpage/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/errorpage/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/mainpage/static/mainpage/css/Fa.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/mainpage/static/mainpage/css/Font.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/mainpage/static/mainpage/css/Font2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/mainpage/static/mainpage/css/Forms.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/mainpage/static/mainpage/css/Icon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/mainpage/static/mainpage/css/Modal.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/mainpage/static/mainpage/css/Normalize.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/mainpage/static/mainpage/img/icon2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/mainpage/static/mainpage/img/people1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/mainpage/static/mainpage/img/people2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/mainpage/static/mainpage/img/people3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/mainpage/static/mainpage/js/Anime.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/mainpage/static/mainpage/js/Astc.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/mainpage/static/mainpage/js/Auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/mainpage/static/mainpage/js/Jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/mainpage/static/mainpage/js/Lazyload.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/mainpage/static/mainpage/js/Mask.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/mainpage/static/mainpage/js/Script.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/mainpage/static/mainpage/js/Underscore-min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/mainpage/templates/mainpage/TestPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/255049.lp.tobiz.net.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/255049.lp.tobiz.net_files/19404fbba6fe5d7b9442bf714d0aceb1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/255049.lp.tobiz.net_files/422ab9cdc616e49a1b4794c08ca39557.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/255049.lp.tobiz.net_files/5e1469e6a66f5f16ce855663eee1b892.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/255049.lp.tobiz.net_files/66b0dce4a86671e70874a094f6aae26a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/255049.lp.tobiz.net_files/7108abd2323c083a89396b4428395b77.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/255049.lp.tobiz.net_files/78d7e5f10ac111ecd2312059537bc969.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/255049.lp.tobiz.net_files/anime.min.js.загружено" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/255049.lp.tobiz.net_files/astc.min.js.загружено" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/255049.lp.tobiz.net_files/auth.js.загружено" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/255049.lp.tobiz.net_files/b36e60fc4173b1cf9e8e15fdb5adb4b1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/255049.lp.tobiz.net_files/css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/255049.lp.tobiz.net_files/css2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/255049.lp.tobiz.net_files/d3fa34f9f6c11f18206f30369ca61f31.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/255049.lp.tobiz.net_files/de8ec6d03339017e41772daa44ff82ba.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/255049.lp.tobiz.net_files/dfdfe4a98c4bb19976c6e5d2d8fe5891.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/255049.lp.tobiz.net_files/fa.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/255049.lp.tobiz.net_files/fffde2f840a54b7876ccaec4729531d2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/255049.lp.tobiz.net_files/forms.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/255049.lp.tobiz.net_files/icon" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/255049.lp.tobiz.net_files/jquery.min.js.загружено" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/255049.lp.tobiz.net_files/lazyload.min.js.загружено" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/255049.lp.tobiz.net_files/mask.min.js.загружено" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/255049.lp.tobiz.net_files/modal.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/255049.lp.tobiz.net_files/normalize.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/255049.lp.tobiz.net_files/script.min.js.загружено" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/255049.lp.tobiz.net_files/swiper-bundle.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/255049.lp.tobiz.net_files/swiper-bundle.min.js.загружено" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/255049.lp.tobiz.net_files/underscore-min.js.загружено" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/255055.lp.tobiz.net.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/255055.lp.tobiz.net_files/138a7940077eedfa903cd67b0fe26c22.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/255055.lp.tobiz.net_files/1bead0a2cd8528ebde6618b9161244e3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/255055.lp.tobiz.net_files/353931e468e9de59b9153960e04237b7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/255055.lp.tobiz.net_files/8c1bf944fd84bcf673a2d4455ca67509.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/255055.lp.tobiz.net_files/anime.min.js.загружено" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/255055.lp.tobiz.net_files/astc.min.js.загружено" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/255055.lp.tobiz.net_files/auth.js.загружено" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/255055.lp.tobiz.net_files/c0755b80a68d4f413ee91881a093aa77.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/255055.lp.tobiz.net_files/c0c9d0eda61b51e459fc5ec5782179c1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/255055.lp.tobiz.net_files/css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/255055.lp.tobiz.net_files/css2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/255055.lp.tobiz.net_files/fa.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/255055.lp.tobiz.net_files/forms.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/255055.lp.tobiz.net_files/icon" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/255055.lp.tobiz.net_files/jquery.min.js.загружено" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/255055.lp.tobiz.net_files/lazyload.min.js.загружено" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/255055.lp.tobiz.net_files/mask.min.js.загружено" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/255055.lp.tobiz.net_files/modal.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/255055.lp.tobiz.net_files/normalize.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/255055.lp.tobiz.net_files/script.min.js.загружено" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/255055.lp.tobiz.net_files/underscore-min.js.загружено" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/255057.lp.tobiz.net.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/255057.lp.tobiz.net_files/01bc6945a9346dd585548977b79ede51.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/255057.lp.tobiz.net_files/2c8d08342a8d695671b91bd18bcb73a7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/255057.lp.tobiz.net_files/41178df7222d95cc8b7586cd8daf1a0e.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/255057.lp.tobiz.net_files/422ab9cdc616e49a1b4794c08ca39557.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/255057.lp.tobiz.net_files/4698e73db776021dfcdd1e14d806f4a4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/255057.lp.tobiz.net_files/5b8254e3e745d35f87bbedad8e095eca.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/255057.lp.tobiz.net_files/5e1469e6a66f5f16ce855663eee1b892.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/255057.lp.tobiz.net_files/66b0dce4a86671e70874a094f6aae26a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/255057.lp.tobiz.net_files/6fa22fcf4f57ff4fb6e92f4ee926efc0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/255057.lp.tobiz.net_files/78d7e5f10ac111ecd2312059537bc969.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/255057.lp.tobiz.net_files/792f11e018aacbc0556d78c9077d5dd2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/255057.lp.tobiz.net_files/anime.min.js.загружено" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/255057.lp.tobiz.net_files/astc.min.js.загружено" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/255057.lp.tobiz.net_files/auth.js.загружено" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/255057.lp.tobiz.net_files/c909b8ba38e2641a473701413563cab2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/255057.lp.tobiz.net_files/css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/255057.lp.tobiz.net_files/css2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/255057.lp.tobiz.net_files/d568d8efe52d9fd1bd3ba86525c55ba3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/255057.lp.tobiz.net_files/dfdfe4a98c4bb19976c6e5d2d8fe5891.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/255057.lp.tobiz.net_files/ef258b4deaf609495ecdb9fa08ab5bc2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/255057.lp.tobiz.net_files/fa.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/255057.lp.tobiz.net_files/forms.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/255057.lp.tobiz.net_files/icon" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/255057.lp.tobiz.net_files/jquery.min.js.загружено" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/255057.lp.tobiz.net_files/lazyload.min.js.загружено" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/255057.lp.tobiz.net_files/mask.min.js.загружено" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/255057.lp.tobiz.net_files/modal.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/255057.lp.tobiz.net_files/normalize.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/255057.lp.tobiz.net_files/script.min.js.загружено" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/255057.lp.tobiz.net_files/underscore-min.js.загружено" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/255063.lp.tobiz.net.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/255063.lp.tobiz.net_files/792f11e018aacbc0556d78c9077d5dd2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/255063.lp.tobiz.net_files/anime.min.js.загружено" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/255063.lp.tobiz.net_files/astc.min.js.загружено" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/255063.lp.tobiz.net_files/auth.js.загружено" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/255063.lp.tobiz.net_files/css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/255063.lp.tobiz.net_files/css2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/255063.lp.tobiz.net_files/fa.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/255063.lp.tobiz.net_files/forms.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/255063.lp.tobiz.net_files/icon" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/255063.lp.tobiz.net_files/jquery.min.js.загружено" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/255063.lp.tobiz.net_files/lazyload.min.js.загружено" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/255063.lp.tobiz.net_files/mask.min.js.загружено" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/255063.lp.tobiz.net_files/modal.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/255063.lp.tobiz.net_files/normalize.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/255063.lp.tobiz.net_files/script.min.js.загружено" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/255063.lp.tobiz.net_files/underscore-min.js.загружено" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/294506.lp.tobiz.net.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/294506.lp.tobiz.net_files/41178df7222d95cc8b7586cd8daf1a0e.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/294506.lp.tobiz.net_files/anime.min.js.загружено" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/294506.lp.tobiz.net_files/astc.min.js.загружено" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/294506.lp.tobiz.net_files/auth.js.загружено" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/294506.lp.tobiz.net_files/c909b8ba38e2641a473701413563cab2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/294506.lp.tobiz.net_files/c99a12dc7e5a0acdb680b2b1dcab9705.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/294506.lp.tobiz.net_files/css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/294506.lp.tobiz.net_files/css2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/294506.lp.tobiz.net_files/d0af67cf9dcdb5ff2207baa86ea21508.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/294506.lp.tobiz.net_files/d568d8efe52d9fd1bd3ba86525c55ba3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/294506.lp.tobiz.net_files/fa.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/294506.lp.tobiz.net_files/forms.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/294506.lp.tobiz.net_files/icon" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/294506.lp.tobiz.net_files/jquery.min.js.загружено" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/294506.lp.tobiz.net_files/lazyload.min.js.загружено" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/294506.lp.tobiz.net_files/mask.min.js.загружено" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/294506.lp.tobiz.net_files/modal.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/294506.lp.tobiz.net_files/normalize.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/294506.lp.tobiz.net_files/script.min.js.загружено" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTemplate/Another/294506.lp.tobiz.net_files/underscore-min.js.загружено" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/web-app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/web-app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training/mainpage/templates/mainpage/MainPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/training/mainpage/templates/mainpage/MainPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training/mainpage/templates/mainpage/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/training/mainpage/templates/mainpage/layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training/mainpage/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/training/mainpage/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training/mainpage/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/training/mainpage/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/_distutils_hack/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/_distutils_hack/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/distutils-precedence.pth" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/distutils-precedence.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-21.3.1.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-21.3.1.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools-59.6.0.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools-59.6.0.dist-info/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools-59.6.0.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools-59.6.0.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools-59.6.0.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools-59.6.0.dist-info/entry_points.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools-59.6.0.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools-59.6.0.virtualenv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_distutils/_msvccompiler.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_distutils/_msvccompiler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_distutils/command/install.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_distutils/command/install.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_distutils/cygwinccompiler.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_distutils/cygwinccompiler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_distutils/log.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_distutils/log.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_distutils/msvc9compiler.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_distutils/msvc9compiler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_distutils/sysconfig.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_distutils/sysconfig.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command/easy_install.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command/easy_install.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/wheel-0.37.1.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wheel-0.37.1.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/activate" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/activate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/activate.bat" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/activate.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/activate.fish" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/activate.fish" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/activate.nu" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/activate.nu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/pip-3.6.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/pip.exe" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/pip.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/pip3.6.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/pip3.exe" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/pip3.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/python.exe" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/python.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/pythonw.exe" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/pythonw.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/wheel-3.6.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/wheel.exe" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/wheel.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/wheel3.6.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/wheel3.exe" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/wheel3.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/pyvenv.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/venv/pyvenv.cfg" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2V5BopjIoh286kOwH0nxDhPRuRa" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/Для Баргу/Курсачи/МиниКурсовая работа ПЗ/web-app/training/manage.py"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "D:/Для Баргу/Курсачи/МиниКурсовая работа ПЗ/TrainingCenterSite/web-app"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Для Баргу\Курсачи\МиниКурсовая работа ПЗ\TrainingCenterSite\web-app\training\errorpage\static\errorpage" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python">
       <module name="web-app" />
@@ -55,5 +276,19 @@
       <updated>1694116239209</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
