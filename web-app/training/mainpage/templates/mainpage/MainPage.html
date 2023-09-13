@@ -455,17 +455,21 @@ a {color:#E04E39;}
 		<a href="{% url 'home' %}">Главная</a>
 	</li>
 	<li class="level0">
-		<a href="">Треннинги</a>
+		<a href="{% url 'trainings' %}">Треннинги</a>
 	</li>
 	<li class="level0"><a href="{% url 'trainers' %}">Наши менторы</a>
 	</li>
 	<li class="level0">
-		<a href="">Отзывы</a>
+		<a href="{% url 'reviews' %}">Отзывы</a>
 	</li>
-	<li class="level0"><a href="{% url 'about' %}">О нас</a>
-	<li class="level0">
-		<a href="">Войти</a>
-	</li>
+	<li class="level0"><a href="{% url 'about' %}">О нас</a></li>
+	{% if user.is_authenticated %}
+            	<li class="level0"><a href="{% url 'profile' %}">Профиль</a></li>
+            	<li class="level0"><a href="{% url 'home-logout' %}">Выход</a></li>
+          	{% else %}
+            	<li class="level0"><a href="{% url 'login' %}">Вход</a></li>
+            	<li class="level0"><a href="{% url 'register' %}">Регистрация</a></li>
+          	{% endif %}
 </ul>
 </div></div></div></div>
 
