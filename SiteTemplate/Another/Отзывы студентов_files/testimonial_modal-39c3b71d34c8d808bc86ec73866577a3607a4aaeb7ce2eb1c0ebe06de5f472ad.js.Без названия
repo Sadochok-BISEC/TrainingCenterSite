@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkfrontend=self.webpackChunkfrontend||[]).push([[3153],{86066:function(){document.querySelectorAll(".modal").forEach((e=>{e.addEventListener("hide.bs.modal",(e=>{e.target.querySelector("iframe").contentWindow.postMessage('{"method":"pause"}',"*")}))}))}},function(e){t=86066,e(e.s=t);var t}]);
