@@ -638,29 +638,6 @@ posthog.init('phc_qfyA3rLLRWvDfi4ZHSzzHhpz5num5AcPGev1NyfOvkn', {
 
 
 </script>
-<script>
-//<![CDATA[
-(function() {
-  // for custom scroll trigger in gtm
-  var onceScrollHandler = function () {
-    var events = window.dataLayer || [];
-    events.push({event: 'real_first_scroll'});
-  };
-  window.addEventListener('scroll', onceScrollHandler, { once: true, passive: true });
-
-  const loadGtm = function() {
-    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-WK88TH');
-  };
-  document.addEventListener('DOMContentLoaded', () => setTimeout(loadGtm, 1250));
-})();
-
-
-
-</script>
 <script type="text/partytown">
 //<![CDATA[
 (function() {
@@ -785,7 +762,7 @@ posthog.init('phc_qfyA3rLLRWvDfi4ZHSzzHhpz5num5AcPGev1NyfOvkn', {
             	<li class="level0"><a href="{% url 'home-logout' %}">Выход</a></li>
           	{% else %}
             	<li class="level0"><a href="{% url 'login' %}">Вход</a></li>
-            	<li class="level0"><a href="{% url 'register' %}">Регистрация</a></li>
+            	<li class="level0"><a href="{% url 'sign_up' %}">Регистрация</a></li>
           	{% endif %}
 </ul>
 </div></div></div></div>
@@ -802,10 +779,10 @@ posthog.init('phc_qfyA3rLLRWvDfi4ZHSzzHhpz5num5AcPGev1NyfOvkn', {
 <div class="container my-5">
 <div class="row align-items-end justify-content-end">
 <div class="col-xl-9">
-<div class="fs-5 fw-medium">На этой странице мы собрали честные отзывы о Хекслете - не только положительные, но и от тех, кому не подошло обучение. А также истории успеха студентов и мнения работодателей о наших выпускниках</div>
+<div class="fs-5 fw-medium">На этой странице мы собрали честные отзывы о Training Center - не только положительные, но и от тех, кому не подошло обучение.</div>
 </div>
 <div class="col col-md-5 col-lg-4 col-xl-3">
-<a class="w-100 btn btn-primary btn-lg mt-4 px-5 fs-6 fw-bold" href="https://docs.google.com/forms/d/e/1FAIpQLSeA0UfskHV9Jw6w0B62Uadvpnxa2wrz28b3HJaKnXDXJ0qOxw/viewform">Оставить отзыв</a>
+<a class="w-100 btn btn-primary btn-lg mt-4 px-5 fs-6 fw-bold" href="{% url 'login' %}">Оставить отзыв</a>
 </div>
 </div>
 <div class="row justify-content-center mt-5">

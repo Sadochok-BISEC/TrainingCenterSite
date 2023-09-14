@@ -19,6 +19,6 @@ from  . import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.register, name='sign_up'),
+    path('', views.signUp, name='sign_up'),
    # path('my_profile', views.profile, name='profile'),
 ]
